@@ -1,6 +1,6 @@
-MONERO ONE — EXPERIMENTAL STANDALONE CHROME WALLET
+MONERO ONE 0.2.0 — STANDALONE MAINNET CHROME WALLET
 
-Unaudited alpha. Use fresh stagenet test wallets only until independently audited.
+Unaudited alpha. Mainnet is enabled; this is not a security-audited release.
 No phone app, desktop wallet, wallet RPC server, or account is needed.
 Network syncing and sending still require a Monero daemon.
 
@@ -10,7 +10,19 @@ INSTALL
 3. Turn on Developer mode.
 4. Click Load unpacked and choose the folder containing manifest.json.
 5. Pin Monero One, then click its toolbar icon to open the wallet tab.
-6. Create a stagenet wallet and back up its recovery phrase.
+6. Create a Mainnet wallet. The default node is https://xmr.triplebit.org.
+7. Approve Chrome's request for access to the node you chose.
+8. Back up the recovery phrase AND restore height, then click Sync wallet.
+9. Verify Mainnet and "You're up to date" before receiving or sending XMR.
+
+UPDATING FROM 0.1.0
+Do not uninstall the old extension if it holds a wallet.
+Export an encrypted backup and record your recovery phrase first.
+Replace the files in the SAME folder that Chrome already loaded, then click
+Reload on chrome://extensions. Loading a different folder can create a new
+extension identity with separate wallet storage.
+Existing stagenet wallets remain stagenet. Create a separate mainnet wallet;
+never try to send real XMR to a stagenet address.
 
 Keep this tab open while syncing or sending.
 The web development preview has separate storage from the installed extension.
@@ -22,10 +34,14 @@ Anyone with these words can spend your Monero.
 An encrypted file backup also requires your wallet password.
 Removing this extension or clearing browser data may erase local wallets.
 
-NOT YET VERIFIED
-Offline wallet creation, restore, encryption, subaddresses, QR codes, address book,
-and lock/reopen are covered by tests. A funded stagenet sync-and-send flow still
-requires independent end-to-end validation.
+VALIDATION AND LIMITS
+Real Chrome extension tests passed mainnet creation and live block scanning
+against Triplebit and Nodely, including actual Chrome host permission prompts.
+The wallet rejects a live stagenet node when configured for mainnet.
+Signing, fees, explicit broadcast, receipt and unlocking passed against a real
+Monero daemon on an isolated regression network, with valueless test funds.
+No real mainnet funds have been received or spent in these tests.
+There has been no independent security audit. Do not keep significant funds here.
 
 SOURCE AND LICENSES
 https://github.com/PlayBlind/MoneroOne

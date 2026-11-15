@@ -3,6 +3,7 @@ import QRCode from 'qrcode';
 import { toAtomic, fromAtomic, validateNode, paymentUri, deriveKey, seal, unseal, bytesToBase64, base64ToBytes, escapeHtml as e, csvCell } from './core.js';
 import { listWallets, putWallet } from './storage.js';
 import { createLocalWallet } from './engine.js';
+import { DEFAULT_NODES, inspectNode, freshWalletHeight } from './nodes.js';
 
 monero.LibraryUtils.setWorkerDistPath(new URL('monero.worker.js', location.href).href);
 const $ = selector => document.querySelector(selector);
@@ -39,7 +40,7 @@ let saveChain = Promise.resolve();
 const isExtension = location.protocol === 'chrome-extension:';
 const short = text => text ? `${text.slice(0, 9)}…${text.slice(-7)}` : 'No wallet connected';
 const money = amount => hidden ? '••••••' : fromAtomic(amount, 6);
-const network = () => record?.network || 'stagenet';
+const network = () => record?.network || 'mainnet';
 const networkLabel = () => network() === 'mainnet' ? 'Mainnet' : 'Stagenet';
 const activeAddress = () => addresses[receiveIndex]?.address || addresses[0]?.address || '';
 const contacts = () => payload?.contacts || [];
@@ -114,7 +115,7 @@ function render() {
       <span class="sidebar-label">WORKSPACE</span>
       <button class="wallet-switch" data-action="wallets"><span class="wallet-avatar">${icon('wallet')}</span><span><strong>${e(currentName)}</strong><small>${wallet ? 'Local wallet' : records.length ? 'Wallet locked' : 'Get started'}</small></span><span class="tiny-chevron">⌄</span></button>
       <nav aria-label="Main navigation">${[['overview', 'Overview'], ['activity', 'Activity'], ['receive', 'Receive'], ['contacts', 'Address book'], ['settings', 'Settings']].map(([id, label]) => `<button data-route="${id}" class="nav-item ${route === id ? 'active' : ''}">${icon(id)}${label}${id === 'receive' ? '<span class="nav-tag">XMR</span>' : ''}</button>`).join('')}</nav>
-      <div class="sidebar-bottom"><div class="local-badge"><span class="status-dot"></span>Runs entirely in your browser</div><div class="sidebar-footer"><span>Monero One</span><span>v0.1.0 <b>ALPHA</b></span></div></div>
+      <div class="sidebar-bottom"><div class="local-badge"><span class="status-dot"></span>Runs entirely in your browser</div><div class="sidebar-footer"><span>Monero One</span><span>v0.2.0 <b>ALPHA</b></span></div></div>
     </aside>
     <div class="workspace">
       <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <strong>${({ overview: 'Overview', activity: 'Activity', receive: 'Receive', contacts: 'Address book', settings: 'Settings' })[route]}</strong></div><div class="top-actions"><span class="network-pill"><span class="status-dot ${network() === 'mainnet' ? '' : 'orange'}"></span>${networkLabel()}</span><button class="icon-button" data-action="${wallet ? 'lock' : 'wallets'}" aria-label="${wallet ? 'Lock wallet' : 'Unlock wallet'}">${icon('lock')}</button><span class="profile-dot">M</span></div></header>
@@ -170,13 +171,31 @@ function settingsPage() {
   return `${heading('A WALLET ON YOUR TERMS', 'The little details.', 'Stay in control of your connection, your keys, and your privacy.')}<div class="settings-grid"><section class="panel settings-panel"><h2>Connection</h2><div class="setting-row"><span><strong>Network</strong><small>Set when a wallet is created. Wallets never switch networks.</small></span><span class="chip">${networkLabel()}</span></div><div class="setting-row"><span><strong>Monero node</strong><small>${payload?.node ? e(payload.node) : 'No node configured · offline'}</small></span><button class="button subtle small-button" data-action="node">Configure</button></div><p class="callout">${icon('info')} Standalone doesn’t mean offline. Syncing and sending require a Monero node, not a separate wallet app. A remote node can see your IP address.</p></section><section class="panel settings-panel"><h2>Security</h2><div class="setting-row"><span><strong>Auto-lock</strong><small>Locks after 5 minutes without activity.</small></span>${icon('lock')}</div><div class="setting-row"><span><strong>Recovery phrase</strong><small>${payload?.backedUp ? 'Backup confirmed' : 'Back up before receiving funds'}</small></span><button class="button subtle small-button" data-action="backup">Back up</button></div><div class="setting-row"><span><strong>Encrypted wallet backup</strong><small>Includes encrypted keys, cache, and address book.</small></span><button class="button subtle small-button" data-action="backup-file">Export</button></div></section><section class="panel settings-panel wide"><div class="panel-heading"><h2>Built differently.</h2><span class="chip orange-text">Experimental · Not audited</span></div><div class="security-columns"><div>${icon('shield')}<h3>Local-first, always</h3><p>AES-256-GCM encryption with a password-derived key. No cloud wallet, analytics, or accounts.</p></div><div>${icon('wallet')}<h3>A real wallet engine</h3><p>Monero’s wallet engine via monero-ts WebAssembly. Keys and transaction signing stay inside your browser.</p></div><div>${icon('info')}<h3>Know the limits</h3><p>No hardware-wallet support, Polyseed, native Tor, or dApp injection yet. Use legacy 25-word Monero seeds.</p></div></div><p class="callout warning">This extension has not had an independent security audit. Use stagenet first. Browser compromise, malware, lost passwords, or a lost recovery phrase can cause permanent loss of funds.</p></section></div>`;
 }
 async function createForm(restore = false) {
-  dialog(restore ? 'Welcome home.' : 'A wallet of your own.', restore ? 'Restore using a legacy 25-word Monero recovery phrase.' : 'Your keys are generated right here in your browser.', `<form id="wallet-form"><label>Wallet name<input name="name" placeholder="Everyday wallet" maxlength="32" required autocomplete="off"></label><label>Network<select name="network"><option value="stagenet">Stagenet · test funds</option><option value="mainnet">Mainnet · real XMR</option></select></label>${restore ? '<label>Restore height<input type="number" name="height" min="0" max="100000000" step="1" value="0" required></label><p class="small muted">Height 0 scans from genesis. Never choose a height after your first payment.</p><label>Recovery phrase<textarea name="seed" rows="4" required autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Your 25 words, separated by spaces"></textarea></label>' : ''}<label>Local password<input name="password" type="password" minlength="12" maxlength="256" required autocomplete="new-password" placeholder="At least 12 characters"></label><label>Confirm password<input name="confirm" type="password" required autocomplete="new-password" placeholder="One more time"></label><label class="checkbox"><input type="checkbox" name="risk" required><span>I understand this is unaudited software and I can lose funds. I will test on stagenet first.</span></label><button class="button primary full" type="submit">${restore ? 'Restore wallet' : 'Create wallet'}${icon('arrow')}</button><p class="small muted center">No account. No companion app. No keys leaving your browser.</p></form>`);
+  dialog(restore ? 'Welcome home.' : 'A wallet of your own.', restore ? 'Restore using a legacy 25-word Monero recovery phrase.' : 'Your keys are generated right here in your browser.', `<form id="wallet-form"><label>Wallet name<input name="name" placeholder="Everyday wallet" maxlength="32" required autocomplete="off"></label><label>Network<select name="network"><option value="mainnet">Mainnet · real XMR</option><option value="stagenet">Stagenet · test funds</option></select></label><label>Connection<select name="connection"><option value="online">Connect to a node</option><option value="offline">Create or restore offline</option></select></label><label id="setup-node-label">Monero node URL<input name="node" type="url" value="${DEFAULT_NODES.mainnet}" required></label><p id="setup-node-note" class="small muted">Public node: Triplebit. It sees your IP address and request timing, never your keys. You may enter your own HTTPS node.</p>${restore ? '<label>Restore height<input type="number" name="height" min="0" max="100000000" step="1" value="0" required></label><p class="small muted">Height 0 scans from genesis. Never choose a height after your first payment.</p><label>Recovery phrase<textarea name="seed" rows="4" required autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Your 25 words, separated by spaces"></textarea></label>' : '<p class="small muted">Connected new wallets start scanning 30 blocks before creation. Offline wallets scan from genesis.</p>'}<label>Local password<input name="password" type="password" minlength="12" maxlength="256" required autocomplete="new-password" placeholder="At least 12 characters"></label><label>Confirm password<input name="confirm" type="password" required autocomplete="new-password" placeholder="One more time"></label><label class="checkbox"><input type="checkbox" name="risk" required><span>I understand this is unaudited software and I can lose funds. If I connect, I consent to the selected node receiving my IP address and wallet requests.</span></label><button class="button primary full" type="submit">${restore ? 'Restore wallet' : 'Create wallet'}${icon('arrow')}</button><p class="small muted center">No account. No companion app. No keys leaving your browser.</p></form>`);
+  $('#wallet-form [name=network]').onchange = event => {
+    $('#wallet-form [name=node]').value = DEFAULT_NODES[event.target.value];
+    $('#setup-node-note').textContent = `Public node: ${event.target.value === 'mainnet' ? 'Triplebit' : 'Nodely'}. It sees your IP address and request timing, never your keys. You may enter your own HTTPS node.`;
+  };
+  $('#wallet-form [name=connection]').onchange = event => {
+    const offline = event.target.value === 'offline';
+    $('#setup-node-label').hidden = offline; $('#setup-node-note').hidden = offline;
+    $('#wallet-form [name=node]').required = !offline;
+  };
   $('#wallet-form').onsubmit = event => {
     event.preventDefault();
     const data = Object.fromEntries(new FormData(event.target));
     if (data.password !== data.confirm) return modal.querySelector('.form-error').textContent = 'The passwords don’t match.';
     if (restore && data.seed.trim().split(/\s+/).length !== 25) return modal.querySelector('.form-error').textContent = 'Enter a legacy 25-word Monero seed. Polyseed is not supported yet.';
+    let node = '';
+    try { if (data.connection === 'online') node = validateNode(data.node); }
+    catch (error) { modal.querySelector('.form-error').textContent = error.message; return; }
+    const permission = node ? requestNodePermission(node) : Promise.resolve(true);
     task(async () => {
+      if (!await permission) throw new Error('Node permission was not granted. Choose offline setup or grant access.');
+      if (node) {
+        const info = await inspectNode(node, data.network);
+        if (!restore) data.birthdayHeight = freshWalletHeight(info.height);
+      }
       if (wallet) await persist();
       await monero.LibraryUtils.terminateWorker();
       wallet = null; key = null; payload = null; connected = synced = false;
@@ -184,11 +203,12 @@ async function createForm(restore = false) {
       const newKey = await deriveKey(data.password, salt);
       const newWallet = await createLocalWallet(data, restore);
       record = { id: crypto.randomUUID(), name: data.name.trim(), network: data.network, salt: bytesToBase64(salt), version: 1, createdAt: Date.now() };
-      wallet = newWallet; key = newKey; payload = { contacts: [], node: '', backedUp: restore };
+      wallet = newWallet; key = newKey; payload = { contacts: [], node, backedUp: restore };
+      if (node) { await wallet.setDaemonConnection(node, false); connected = true; }
       receiveIndex = 0;
       await persist(); await refresh();
       closeDialog(); route = 'overview'; render();
-      toast(restore ? 'Wallet restored locally. Configure a node to sync.' : 'Wallet created. Back up your recovery phrase before receiving.');
+      toast(restore ? 'Wallet restored. Sync to find your transactions.' : 'Wallet created. Back up your recovery phrase before receiving.');
     });
   };
 }
@@ -246,8 +266,9 @@ function backupForm() {
       try { await unseal(record, await deriveKey(password, base64ToBytes(record.salt))); }
       catch { throw new Error('Incorrect password.'); }
       const words = (await wallet.getSeed()).split(' ');
+      const restoreHeight = await wallet.getRestoreHeight();
       closeDialog();
-      dialog('Keep these somewhere safe.', 'Write the words down in order. Don’t take a screenshot or store them in cloud notes.', `<div class="seed-grid"></div><form id="confirm-backup"><label>Confirm word ${words.length}<input name="word" required autocomplete="off" spellcheck="false" placeholder="The last word of your phrase"></label><label class="checkbox"><input type="checkbox" required><span>I wrote my phrase down and stored it safely.</span></label><button type="submit" class="button primary full">I’ve saved my recovery phrase</button></form>`);
+      dialog('Keep these somewhere safe.', 'Write the words down in order. Don’t take a screenshot or store them in cloud notes.', `<div class="seed-grid"></div><p class="callout">Also write down your restore height: ${e(restoreHeight)}. Use this height or an earlier one when restoring.</p><form id="confirm-backup"><label>Confirm word ${words.length}<input name="word" required autocomplete="off" spellcheck="false" placeholder="The last word of your phrase"></label><label class="checkbox"><input type="checkbox" required><span>I wrote my phrase down and stored it safely.</span></label><button type="submit" class="button primary full">I’ve saved my recovery phrase</button></form>`);
       words.forEach((word, index) => {
         const item = document.createElement('span');
         const number = document.createElement('small'); number.textContent = index + 1;
@@ -263,14 +284,13 @@ function backupForm() {
 }
 function nodeForm() {
   if (!requireWallet()) return;
-  dialog('Your connection. Your choice.', 'Use a trusted Monero daemon on the same network as this wallet.', `<form id="node-form"><label>${networkLabel()} node URL<input name="node" type="url" placeholder="https://your-monero-node.example:443" value="${e(payload.node)}" required></label><p class="callout">${icon('info')} This connects to monerod, not wallet RPC. Remote nodes must use HTTPS. Your node sees your IP address; no built-in Tor is provided.</p><button class="button primary full" type="submit">Verify and save node${icon('arrow')}</button></form>`);
+  dialog('Your connection. Your choice.', 'Use a trusted Monero daemon on the same network as this wallet.', `<form id="node-form"><label>${networkLabel()} node URL<input name="node" type="url" placeholder="https://your-monero-node.example:443" value="${e(payload.node || DEFAULT_NODES[network()])}" required></label><p class="callout">${icon('info')} This connects to monerod, not wallet RPC. Remote nodes must use HTTPS. Your node sees your IP address; no built-in Tor is provided.</p><button class="button primary full" type="submit">Verify and save node${icon('arrow')}</button></form>`);
   $('#node-form').onsubmit = event => {
     event.preventDefault();
     let node;
     try { node = validateNode(new FormData(event.target).get('node')); }
     catch (error) { modal.querySelector('.form-error').textContent = error.message; return; }
-    const nodeUrl = new URL(node);
-    const permission = isExtension ? chrome.permissions.request({ origins: [`${nodeUrl.protocol}//${nodeUrl.hostname}/*`] }) : Promise.resolve(true);
+    const permission = requestNodePermission(node);
     task(async () => {
       if (!await permission) throw new Error('Node permission was not granted.');
       await verifyNode(node);
@@ -281,13 +301,12 @@ function nodeForm() {
   };
 }
 async function verifyNode(node) {
-  const response = await fetch(`${node}/json_rpc`, { method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ jsonrpc: '2.0', id: 'monero-one', method: 'get_info' }), signal: AbortSignal.timeout(15000) });
-  if (!response.ok) throw new Error(`Node returned HTTP ${response.status}.`);
-  const data = await response.json();
-  if (data.error || !Number.isSafeInteger(data.result?.height)) throw new Error('This endpoint did not return a valid Monero daemon response.');
-  const info = data.result;
-  if ((network() === 'stagenet' && info.stagenet !== true) || (network() === 'mainnet' && (info.mainnet !== true || info.stagenet || info.testnet))) throw new Error(`This node is not on ${networkLabel()}. Your wallet network cannot be changed.`);
+  return inspectNode(node, network());
+}
+async function requestNodePermission(node) {
+  if (!isExtension) return true;
+  const url = new URL(node);
+  return chrome.permissions.request({ origins: [`${url.protocol}//${url.hostname}/*`] });
 }
 async function syncWallet() {
   if (!requireWallet()) return;
