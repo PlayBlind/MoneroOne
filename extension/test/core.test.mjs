@@ -1,11 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
 import { toAtomic, fromAtomic, paymentUri, validateNode, deriveKey, seal, unseal, escapeHtml, csvCell, bytesToBase64, base64ToBytes, walletConfig } from '../src/core.js';
 
 test('random creation and seed restore obey different wallet engine contracts', () => {
   const data = { password: 'test-only', network: 'stagenet', height: '0', seed: ' a   b ' };
   assert.deepEqual(walletConfig(data, false), { password: 'test-only', networkType: 'stagenet', language: 'English' });
   assert.deepEqual(walletConfig(data, true), { password: 'test-only', networkType: 'stagenet', restoreHeight: 0, seed: 'a b' });
+});
+test('extension requires no always-on permissions, content scripts or JavaScript eval', async () => {
+  const manifest = JSON.parse(await readFile(new URL('../public/manifest.json', import.meta.url)));
+  assert.equal(manifest.manifest_version, 3);
+  assert.equal(manifest.permissions, undefined);
+  assert.equal(manifest.content_scripts, undefined);
+  assert.equal(manifest.externally_connectable, undefined);
+  assert.ok(manifest.content_security_policy.extension_pages.includes("'wasm-unsafe-eval'"));
+  assert.ok(!manifest.content_security_policy.extension_pages.includes("'unsafe-eval'"));
 });
 
 test('XMR amounts use exact atomic units, not floating point', () => {

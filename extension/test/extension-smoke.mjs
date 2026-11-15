@@ -25,6 +25,16 @@ try {
   page.on('console', message => { if (message.type() === 'error') errors.push(message.text().slice(0, 300)); });
   await page.goto(`chrome-extension://${id}/index.html`);
   await page.getByRole('heading', { name: 'Your money. Only yours.' }).waitFor();
+  const ownTabs = await worker.evaluate(() => chrome.tabs.query({ url: chrome.runtime.getURL('index.html') }));
+  assert.equal(ownTabs.length, 1);
+  await page.setViewportSize({ width: 390, height: 844 });
+  const actionsFit = await page.locator('.balance-buttons').evaluate(element => {
+    const card = element.closest('.balance-card').getBoundingClientRect();
+    return [...element.children].every(button => button.getBoundingClientRect().right <= card.right);
+  });
+  assert.ok(actionsFit, 'All balance actions must fit in a narrow viewport');
+  await page.setViewportSize({ width: 1280, height: 1024 });
+  console.log('PASS: launcher can find its existing wallet tab and narrow-screen actions fit');
   await page.getByRole('button', { name: 'Create wallet', exact: true }).click();
   await page.getByLabel('Wallet name', { exact: true }).fill('Extension test');
   await page.getByLabel('Local password', { exact: true }).fill(password);

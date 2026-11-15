@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "description": "Your Monero, your browser. An experimental standalone wallet with locally encrypted keys.",
   "minimum_chrome_version": "120",
-  "permissions": ["storage"],
   "optional_host_permissions": ["https://*/*", "http://localhost/*", "http://127.0.0.1/*"],
   "action": { "default_title": "Open Monero One" },
   "background": { "service_worker": "background.js" },

@@ -5,7 +5,7 @@
   "description": "Standalone, local-first Monero wallet for Chrome",
   "type": "module",
   "scripts": {
-    "build": "webpack --mode production && node scripts/package.mjs",
+    "build": "webpack --mode production",
     "dev": "webpack serve --mode development --host 0.0.0.0 --port 3000",
     "test": "node --test test/*.test.mjs",
     "test:extension": "node test/extension-smoke.mjs"
