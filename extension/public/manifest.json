@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Monero One · Standalone Wallet",
+  "version": "0.2.0",
+  "description": "Your Monero, your browser. An experimental standalone wallet with locally encrypted keys.",
+  "minimum_chrome_version": "120",
+  "optional_host_permissions": ["https://*/*", "http://localhost/*", "http://127.0.0.1/*"],
+  "action": { "default_title": "Open Monero One" },
+  "background": { "service_worker": "background.js" },
+  "icons": { "128": "icon.png" },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; connect-src 'self' https: http://localhost:* http://127.0.0.1:*; img-src 'self' data: blob:; style-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+  },
+  "cross_origin_embedder_policy": { "value": "require-corp" },
+  "cross_origin_opener_policy": { "value": "same-origin" }
+}

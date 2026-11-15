@@ -1,0 +1,38 @@
+{
+  "name": "monero-one-extension",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Standalone, local-first Monero wallet for Chrome",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --host 0.0.0.0 --port 3000",
+    "test": "node --test test/*.test.mjs",
+    "test:extension": "node test/extension-smoke.mjs",
+    "test:mainnet": "node test/mainnet-smoke.mjs",
+    "test:regtest": "node test/regtest-send.mjs"
+  },
+  "dependencies": {
+    "monero-ts": "0.11.22",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "copy-webpack-plugin": "^13.0.1",
+    "crypto-browserify": "^3.12.1",
+    "https-browserify": "^1.0.0",
+    "memfs": "^4.17.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "playwright": "^1.65.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "webpack": "^5.105.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
