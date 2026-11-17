@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// A language Monero One can show, named in that language.
+/// A language Monero Mobile can show, named in that language.
 struct AppLanguage: Identifiable, Equatable {
     /// The localization: "de", "pt-BR", "zh-Hans".
     let code: String
@@ -57,10 +57,10 @@ struct AppLanguage: Identifiable, Equatable {
     }
 }
 
-/// Monero One's language choice. It is the `AppleLanguages` value iOS
-/// writes for Settings › Apps › Monero One › Language, kept in the app's
+/// Monero Mobile's language choice. It is the `AppleLanguages` value iOS
+/// writes for Settings › Apps › Monero Mobile › Language, kept in the app's
 /// own defaults, and iOS reads it when the app starts: a change shows the
-/// next time Monero One opens.
+/// next time Monero Mobile opens.
 struct AppLanguageSetting {
     let defaults: UserDefaults
     /// The name of the defaults domain above: the bundle id for the app's
@@ -117,7 +117,7 @@ struct LanguageSettingsView: View {
                 .accessibilityIdentifier("language.system")
             } footer: {
                 // Under the first row, where it shows without scrolling.
-                Text(String(localized: "Monero One switches language the next time it opens.", comment: "Language settings: a new language shows after the app restarts"))
+                Text(String(localized: "Monero Mobile switches language the next time it opens.", comment: "Language settings: a new language shows after the app restarts"))
                     .fontWeight(changed ? .semibold : .regular)
             }
 
@@ -162,7 +162,7 @@ struct LanguageSettingsView: View {
         changed = true
         UIAccessibility.post(
             notification: .announcement,
-            argument: String(localized: "Monero One switches language the next time it opens.", comment: "Language settings: a new language shows after the app restarts")
+            argument: String(localized: "Monero Mobile switches language the next time it opens.", comment: "Language settings: a new language shows after the app restarts")
         )
     }
 }

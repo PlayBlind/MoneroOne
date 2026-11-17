@@ -334,7 +334,7 @@ extension OpenAliasLookupModel.Rejection {
     var message: String {
         switch self {
         case .invalidName: return String(localized: "Invalid name")
-        case .reserved: return String(localized: "Monero One names come in a later update")
+        case .reserved: return String(localized: "monero.one addresses are not supported yet")
         }
     }
 }
@@ -450,7 +450,7 @@ struct RecipientMonogram: View {
     }
 }
 
-/// The picture of a recipient: the Monero One logo for Monero One's own
+/// The picture of a recipient: the Monero Mobile logo for the app's own
 /// names on a DNSSEC-valid answer (`showsMoneroOneLogo`), else the monogram.
 struct RecipientAvatar: View {
     let summary: OpenAliasSummary

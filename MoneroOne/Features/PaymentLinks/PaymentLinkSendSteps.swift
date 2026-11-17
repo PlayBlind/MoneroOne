@@ -266,7 +266,7 @@ enum PaymentLinkFunder {
     static func shareText(for record: EnvelopeRecord) -> String? {
         guard let link = record.link else { return nil }
         let amount = XMRFormatter.format(EnvelopeRuntime.xmr(record.amount))
-        return String(localized: "I sent you \(amount) XMR. Tap to claim it in Monero One: \(link.url)",
+        return String(localized: "I sent you \(amount) XMR. Tap to claim it in Monero Mobile: \(link.url)",
                       comment: "Text shared with a payment link. The first value is the amount, the second the link")
     }
 

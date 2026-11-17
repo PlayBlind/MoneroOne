@@ -104,7 +104,7 @@ struct PriceWidgetView: View {
             Text("XMR Price")
                 .font(.headline.weight(.semibold))
 
-            Text("Open Monero One to load")
+            Text("Open Monero Mobile to load")
                 .font(.caption)
                 .foregroundColor(.secondary)
         }

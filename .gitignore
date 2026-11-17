@@ -1,10 +1,65 @@
-# Browser extension
-extension/node_modules/
-extension/dist/
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+*.tsbuildinfo
+.expo
+.expo-shared
+.next
+.turbo
+.svelte-kit
+.nuxt
+.output
+.vercel
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+
+# Replit
+.cache/
+.local/
+
+# Imported native iOS project and generated extension outputs
+/generated-artifacts/
 extension/artifacts/
-# Xcode
 build/
 DerivedData/
+xcuserdata/
 *.xcodeproj/xcuserdata/
 *.xcodeproj/project.xcworkspace/xcuserdata/
 *.xcworkspace/xcuserdata/
@@ -12,29 +67,18 @@ DerivedData/
 *.mode1v3
 *.mode2v3
 *.perspectivev3
-xcuserdata/
 *.xccheckout
 *.moved-aside
 *.hmap
 *.ipa
 *.dSYM.zip
 *.dSYM
-
-# Swift Package Manager
 .build/
 .swiftpm/
-
-
-# CocoaPods
 Pods/
 Podfile.lock
-
-# Carthage
 Carthage/Build/
 Carthage/Checkouts/
-
-# macOS
-.DS_Store
 .AppleDouble
 .LSOverride
 ._*
@@ -42,8 +86,6 @@ Carthage/Checkouts/
 *~
 .Spotlight-V100
 .Trashes
-
-# Secrets & Credentials - NEVER COMMIT
 *.env
 *.env.*
 .env.local
@@ -57,53 +99,29 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
-
-# API Keys
 **/APIKeys.swift
 **/Secrets.swift
-
-# Debug & Log files - NEVER COMMIT
 *_logs.txt
 *.log
 logs/
 *.crash
 crash_reports/
 debug_output/
-
-# Test artifacts
 *.xcresult
 coverage/
 test_output/
-
-# IDE & Editor
-.idea/
 *.iml
-.vscode/
-*.sublime-*
 .nova/
-
-# Claude & AI
 .claude/
 *.plan
 *.plan.md
-
-# Archives
 *.xcarchive
-
-# Temporary files
 *.tmp
 *.temp
-tmp/
 temp/
-
-# Scripts with hardcoded values (create from .example)
 test_*.sh
 !scripts/*.sh
-
-# Local docs for Claude
 ICON_SETUP.md
-
-# Documentation & Marketing
 docs/
 promo-video/
 *.bak

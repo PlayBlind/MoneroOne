@@ -1820,7 +1820,7 @@
     "Monero" : {
       "shouldTranslate" : false
     },
-    "Monero One" : {
+    "Monero Mobile" : {
       "shouldTranslate" : false
     },
     "Moroccan Dirham" : {
@@ -2202,96 +2202,96 @@
         }
       }
     },
-    "Open Monero One to load" : {
+    "Open Monero Mobile to load" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Öffne Monero One zum Laden"
+            "value" : "Öffne Monero Mobile zum Laden"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abre Monero One para cargar"
+            "value" : "Abre Monero Mobile para cargar"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ouvrez Monero One pour charger"
+            "value" : "Ouvrez Monero Mobile pour charger"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apri Monero One per caricare"
+            "value" : "Apri Monero Mobile per caricare"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneを開くと読み込まれます"
+            "value" : "Monero Mobileを開くと読み込まれます"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "불러오려면 Monero One을 여세요"
+            "value" : "불러오려면 Monero Mobile을 여세요"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open Monero One om te laden"
+            "value" : "Open Monero Mobile om te laden"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Otwórz Monero One, aby wczytać dane"
+            "value" : "Otwórz Monero Mobile, aby wczytać dane"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abra o Monero One para carregar"
+            "value" : "Abra o Monero Mobile para carregar"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deschide Monero One pentru a încărca"
+            "value" : "Deschide Monero Mobile pentru a încărca"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Откройте Monero One для загрузки"
+            "value" : "Откройте Monero Mobile для загрузки"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yüklemek için Monero One uygulamasını açın"
+            "value" : "Yüklemek için Monero Mobile uygulamasını açın"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Відкрийте Monero One, щоб завантажити"
+            "value" : "Відкрийте Monero Mobile, щоб завантажити"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打开 Monero One 以载入"
+            "value" : "打开 Monero Mobile 以载入"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "開啟 Monero One 來載入"
+            "value" : "開啟 Monero Mobile 來載入"
           }
         }
       }

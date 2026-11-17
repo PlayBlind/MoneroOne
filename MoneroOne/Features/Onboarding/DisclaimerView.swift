@@ -62,7 +62,7 @@ struct DisclaimerView: View {
                         icon: "key.fill",
                         iconColor: .brand,
                         title: "You Control Your Keys",
-                        description: "Monero One is a self-custody wallet. Your seed phrase is the only way to access your funds. We cannot recover it for you.",
+                        description: "Monero Mobile is a self-custody wallet. Your seed phrase is the only way to access your funds. We cannot recover it for you.",
                         isChecked: $checkboxes[0]
                     )
                     .accessibilityIdentifier("disclaimer.checkbox.0")

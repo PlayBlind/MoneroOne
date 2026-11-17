@@ -3,7 +3,7 @@ import SwiftUI
 
 /// When the app asks for Apple's review prompt: once per install, on the
 /// wallet home after the first send that went out. A tap on Settings > Rate
-/// Monero One counts as done too, so a person who rated there is never asked.
+/// Monero Mobile counts as done too, so a person who rated there is never asked.
 ///
 /// Two flags in UserDefaults hold the state. `pending`: a send went out and
 /// the prompt waits for the home. `done`: the prompt was asked for, or the
@@ -32,7 +32,7 @@ struct ReviewPromptGate {
         defaults.set(true, forKey: Self.pendingKey)
     }
 
-    /// Settings > Rate Monero One opened the App Store review page.
+    /// Settings > Rate Monero Mobile opened the App Store review page.
     func ratedFromSettings() {
         markDone()
     }

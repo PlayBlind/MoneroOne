@@ -11,7 +11,7 @@ import Foundation
 ///
 /// `recipient_name` and `tx_description` are read past and dropped. Both are
 /// free text from whoever made the link, and a wallet that shows them lets a
-/// stranger's link call itself "Monero One Support".
+/// stranger's link call itself "Monero Mobile Support".
 struct MoneroPaymentURI: Equatable {
     let address: String
     /// Plain decimal XMR ("0.25"), nil when the request names no amount.

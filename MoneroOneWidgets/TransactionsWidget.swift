@@ -81,7 +81,7 @@ struct TransactionsWidgetView: View {
                 .scaleEffect(1.15)
                 .clipShape(Circle())
 
-            Text("Monero One")
+            Text("Monero Mobile")
                 .font(.headline.weight(.semibold))
 
             Text("Enable in Settings")
@@ -168,7 +168,7 @@ struct TransactionsWidgetView: View {
 
                 VStack(alignment: .leading, spacing: 2) {
                     HStack {
-                        Text("Monero One")
+                        Text("Monero Mobile")
                             .font(.subheadline.weight(.semibold))
 
                         if entry.data.isTestnet {

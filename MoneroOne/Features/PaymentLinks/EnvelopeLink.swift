@@ -95,9 +95,9 @@ struct EnvelopeLink: Equatable {
         var message: String {
             switch self {
             case .notClaimLink:
-                return String(localized: "This is not a Monero One payment link.")
+                return String(localized: "This is not a Monero Mobile payment link.")
             case .unsupportedVersion:
-                return String(localized: "Update Monero One to open this link.")
+                return String(localized: "Update Monero Mobile to open this link.")
             case .incomplete:
                 return String(localized: "This link is not complete.")
             }

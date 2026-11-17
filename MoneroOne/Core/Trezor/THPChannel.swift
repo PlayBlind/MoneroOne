@@ -634,14 +634,14 @@ class THPChannel {
         // Step 1: ThpPairingRequest (1008)
         // Surface the user's device name + app display name to the
         // Trezor screen — Trezor Suite does the same so users see
-        // "Connect to Monero One on Joe's iPhone" instead of the
+        // "Connect to Monero Mobile on Joe's iPhone" instead of the
         // generic bundle name. App name is hardcoded to the proper
-        // display string ("Monero One") rather than read from
+        // display string ("Monero Mobile") rather than read from
         // Bundle — CFBundleDisplayName resolves to the no-space
         // bundle id ("MoneroOne") in some build configurations and
         // we want the brand spelling regardless.
         let hostName = UIDevice.current.name
-        let appName = "Monero One"
+        let appName = "Monero Mobile"
         TrezorLog.log("[THP] pairing: sending PairingRequest (host=%@ app=%@)", hostName, appName)
         let pairingReqPayload = THPProto.encodePairingRequest(hostName: hostName, appName: appName)
         try await sendEncrypted(sessionId: 0, messageType: 1008, payload: pairingReqPayload, cipher: sendCipher)

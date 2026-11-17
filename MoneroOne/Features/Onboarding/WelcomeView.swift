@@ -65,13 +65,13 @@ struct WelcomeView: View {
             Spacer(minLength: 24)
 
             // Hero centered in the space above the buttons. Title one size
-            // down from the tall layout so "Monero One" stays on one line
+            // down from the tall layout so "Monero Mobile" stays on one line
             // next to the logo in a 328pt column.
             HStack(alignment: .center, spacing: 20) {
                 AnimatedMoneroLogo(size: 120)
                     .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("Monero One")
+                    Text("Monero Mobile")
                         .font(.title)
                         .fontWeight(.bold)
                         .lineLimit(1)
@@ -102,7 +102,7 @@ struct WelcomeView: View {
     // MARK: - Pieces
 
     private var title: some View {
-        Text("Monero One")
+        Text("Monero Mobile")
             .font(.largeTitle)
             .fontWeight(.bold)
             .accessibilityAddTraits(.isHeader)

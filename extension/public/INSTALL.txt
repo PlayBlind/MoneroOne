@@ -1,6 +1,6 @@
-MONERO ONE 0.2.0 — STANDALONE MAINNET CHROME WALLET
+MONERO MOBILE 0.2.5 — STANDALONE CHROME WALLET
 
-Unaudited alpha. Mainnet is enabled; this is not a security-audited release.
+Mainnet is enabled. No independent security audit has been completed.
 No phone app, desktop wallet, wallet RPC server, or account is needed.
 Network syncing and sending still require a Monero daemon.
 
@@ -9,13 +9,14 @@ INSTALL
 2. Open chrome://extensions in Chrome 120 or later.
 3. Turn on Developer mode.
 4. Click Load unpacked and choose the folder containing manifest.json.
-5. Pin Monero One, then click its toolbar icon to open the wallet tab.
+5. Pin Monero Mobile, then click its toolbar icon to open the wallet tab.
 6. Create a Mainnet wallet. The default node is https://xmr.triplebit.org.
 7. Approve Chrome's request for access to the node you chose.
-8. Back up the recovery phrase AND restore height, then click Sync wallet.
+8. Back up the recovery phrase AND restore height. Scanning starts automatically;
+   use Sync wallet at any time to scan immediately.
 9. Verify Mainnet and "You're up to date" before receiving or sending XMR.
 
-UPDATING FROM 0.1.0
+UPDATING AN EXISTING INSTALLATION
 Do not uninstall the old extension if it holds a wallet.
 Export an encrypted backup and record your recovery phrase first.
 Replace the files in the SAME folder that Chrome already loaded, then click

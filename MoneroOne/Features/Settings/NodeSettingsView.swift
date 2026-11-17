@@ -103,7 +103,7 @@ struct NodeSettingsView: View {
             Button("Cancel", role: .cancel) {}
             Button("Turn On") { torEnabled = true }
         } message: {
-            Text("Monero One has no built-in Tor. Without Orbot or another Tor app running, no node will connect.")
+            Text("Monero Mobile has no built-in Tor. Without Orbot or another Tor app running, no node will connect.")
         }
         .sheet(isPresented: $showAddNode) {
             AddCustomNodeView(takenURLs: nodeManager.listedURLs()) { name, url, login, password in

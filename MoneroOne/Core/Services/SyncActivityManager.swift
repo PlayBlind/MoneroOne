@@ -48,7 +48,7 @@ class SyncActivityManager: ObservableObject {
             return
         }
 
-        let attributes = SyncActivityAttributes(walletName: "Monero One")
+        let attributes = SyncActivityAttributes(walletName: "Monero Mobile")
         let initialState = SyncActivityAttributes.ContentState(
             progress: 0,
             blocksRemaining: nil,

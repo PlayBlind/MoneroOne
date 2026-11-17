@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Monero Mobile — Chrome Wallet"
+description = "Standalone Monero Chrome wallet and preserved native iOS source. The Replit preview is not an installed extension and does not have native Chrome permissions."
+version = "1.0.0"
+id = "artifacts/monero-one"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21349
+
+[services.development]
+run = "pnpm --filter @workspace/monero-one run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/monero-one", "run", "build" ]
+serve = "static"
+publicDir = "extension/dist"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21349"
+BASE_PATH = "/"

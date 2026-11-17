@@ -78,9 +78,9 @@ struct NeedsRestoreView: View {
     /// transfer), so the text names no cause.
     private var bodyText: Text {
         if walletManager.needsRestoreWalletFilesRemain {
-            return Text("Monero One cannot read the wallet keys on this iPhone, so it needs to restore them.")
+            return Text("Monero Mobile cannot read the wallet keys on this iPhone, so it needs to restore them.")
         }
-        return Text("This iPhone was set up from a device backup. Wallet keys stay on the old iPhone, so Monero One needs to restore them here.")
+        return Text("This iPhone was set up from a device backup. Wallet keys stay on the old iPhone, so Monero Mobile needs to restore them here.")
     }
 
     /// Same pieces as the switcher row (emoji circle, name, 8…8 address),

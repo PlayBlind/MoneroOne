@@ -30,11 +30,14 @@ try {
   await page.getByRole('button', { name: 'Create wallet', exact: true }).click();
   await page.getByLabel('Wallet name', { exact: true }).fill('Mainnet connection test');
   assert.equal(await page.locator('[name=network]').inputValue(), 'mainnet');
+  await page.getByRole('button', { name: 'Authorize and check node', exact: true }).click();
+  await approveNativePrompt();
+  await page.getByText(/Verified mainnet node at block/).waitFor({ timeout: 90000 });
+  assert.equal(await page.locator('#wallet-form button[type=submit]').isDisabled(), false);
   await page.getByLabel('Local password', { exact: true }).fill(password);
   await page.getByLabel('Confirm password', { exact: true }).fill(password);
   await page.locator('[name=risk]').check();
   await page.locator('#wallet-form button[type=submit]').click();
-  await approveNativePrompt();
   await page.waitForFunction(() => document.querySelector('.chip.green') || document.querySelector('.form-error')?.textContent, undefined, { timeout: 90000 });
   const error = await page.locator('.form-error').count() ? await page.locator('.form-error').textContent() : '';
   assert.ok(!error, `Mainnet setup error: ${error}`);
@@ -43,9 +46,8 @@ try {
   const permission = await worker.evaluate(() => chrome.permissions.contains({ origins: ['https://xmr.triplebit.org/*'] }));
   assert.ok(permission);
   console.log('PASS: actual optional host permission granted and mainnet wallet created against live HTTPS node');
-  await page.getByRole('button', { name: 'Sync wallet', exact: true }).click();
   await page.getByRole('heading', { name: 'You’re up to date' }).waitFor({ timeout: 180000 });
-  console.log('PASS: packaged extension completed real mainnet block scanning and reports synced');
+  console.log('PASS: packaged extension automatically scanned the live mainnet node after wallet creation');
   await mkdir('artifacts', { recursive: true });
   await page.screenshot({ path: 'artifacts/mainnet-synced.png', fullPage: true });
   await page.getByRole('button', { name: 'Settings', exact: true }).click();
@@ -60,10 +62,12 @@ try {
   await page.locator('#node-form [name=node]').fill('https://xmr.nodely.dev:18089');
   await page.getByRole('button', { name: 'Verify and save node', exact: true }).click();
   await page.locator('#node-form').waitFor({ state: 'detached', timeout: 30000 });
+  // Node saving immediately schedules a scan. Navigation intentionally ignores
+  // clicks while the exclusive wallet task is running; wait before changing pages.
+  await page.waitForFunction(() => !document.body.classList.contains('busy'), undefined, { timeout: 180000 });
   await page.getByRole('button', { name: 'Overview', exact: true }).click();
-  await page.getByRole('button', { name: 'Sync wallet', exact: true }).click();
   await page.getByRole('heading', { name: 'You’re up to date' }).waitFor({ timeout: 180000 });
-  console.log('PASS: second independent live mainnet node also syncs using a non-default HTTPS port');
+  console.log('PASS: changing nodes automatically starts scanning on the selected live mainnet node');
   assert.deepEqual(errors, []);
   console.log('No mainnet funds were received or sent. This test does not prove a funded mainnet round-trip.');
 } finally {

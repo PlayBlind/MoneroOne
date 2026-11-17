@@ -11,7 +11,7 @@ enum RecipientInput: Equatable {
     case address(String)
     case name(OpenAliasName)
     /// `monero.one`, a name under it, or the `@name` shorthand: saved for
-    /// Monero One names, so the app sends no lookup. Monero One's own names,
+    /// monero.one names, so the app sends no lookup. The domain's own names,
     /// such as `donate@monero.one`, resolve as names.
     case reserved
     case invalidName
@@ -108,17 +108,17 @@ enum OpenAlias {
         return .name(OpenAliasName(display: display, query: query))
     }
 
-    // MARK: - Monero One's own names (exception to D8)
+    // MARK: - monero.one's own names (exception to D8)
 
     private static let operatorDomain = "monero.one"
 
     /// The names under monero.one that resolve like any other name, in the
-    /// `name@monero.one` form only. Monero One publishes these records
+    /// `name@monero.one` form only. The monero.one domain publishes these records
     /// itself. Every other monero.one name stays reserved (D8), so no record
-    /// can pose as the Monero One team.
+    /// can pose as the monero.one team.
     private static let operatorNames: Set<String> = ["donate"]
 
-    /// True for one of Monero One's own names, such as `donate@monero.one`.
+    /// True for one of the monero.one domain's own names, such as `donate@monero.one`.
     /// `display` is the lowercase name, as `classify` makes it.
     static func isOperatorName(_ display: String) -> Bool {
         let sides = display.split(separator: "@", omittingEmptySubsequences: false)

@@ -3,7 +3,7 @@ import SwiftUI
 // MARK: - Banner
 
 /// One line under the greeting after a big update: sparkles, "What's New
-/// in Monero One 1.1", X. A tap opens the sheet; the X hides it for good.
+/// in Monero Mobile 1.1", X. A tap opens the sheet; the X hides it for good.
 /// Banner grammar like `ErrorBanner`, with a green tint (green is not a
 /// fault color, and orange read as the red error banners).
 struct WhatsNewBanner: View {
@@ -21,7 +21,7 @@ struct WhatsNewBanner: View {
                         .accessibilityHidden(true)
                     // No line limit: at large text sizes it wraps and the
                     // banner grows taller, never wider.
-                    Text("What's New in Monero One \(entry.version.description)")
+                    Text("What's New in Monero Mobile \(entry.version.description)")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(.primary)
                         .multilineTextAlignment(.leading)
@@ -105,7 +105,7 @@ enum WhatsNewLinks {
     /// its store (friends may use Android).
     static let share = URL(string: "https://monero.one/download")!
     /// Rate on the App Store: the write-review page, as Settings > Rate
-    /// Monero One. Apple's review prompt may show nothing, so it is not used.
+    /// Monero Mobile. Apple's review prompt may show nothing, so it is not used.
     static let rate = URL(string: "https://apps.apple.com/app/id6757898541?action=write-review")!
 }
 
@@ -122,11 +122,11 @@ struct WhatsNewSheet: View {
     /// The bullet's column grows with the text, so the dot is never cut.
     @ScaledMetric(relativeTo: .subheadline) private var bulletWidth: CGFloat = 8
 
-    /// Keeps "Monero One" on one line when the title wraps. The name stays
+    /// Keeps "Monero Mobile" on one line when the title wraps. The name stays
     /// in Latin letters in every language.
     private var title: String {
-        String(localized: "What's New in Monero One")
-            .replacingOccurrences(of: "Monero One", with: "Monero\u{00A0}One")
+        String(localized: "What's New in Monero Mobile")
+            .replacingOccurrences(of: "Monero Mobile", with: "Monero\u{00A0}Mobile")
     }
 
     var body: some View {
@@ -223,7 +223,7 @@ struct WhatsNewSheet: View {
             }
             .accessibilityIdentifier("whatsNew.rate")
             // The person rated here: the app never asks for Apple's review
-            // prompt after a send (as Settings > Rate Monero One).
+            // prompt after a send (as Settings > Rate Monero Mobile).
             .environment(\.openURL, OpenURLAction { _ in
                 ReviewPromptGate().ratedFromSettings()
                 return .systemAction

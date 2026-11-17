@@ -215,7 +215,7 @@ struct TrustedLocationsExplanationView: View {
 
                         Text("Your location data stays on your device. It's only used to check if you're in a trusted zone - never stored, logged, or transmitted anywhere.")
 
-                        Text("Monero One is open source. You can verify exactly how location is used in the code.")
+                        Text("Monero Mobile is open source. You can verify exactly how location is used in the code.")
                     }
 
                     VStack(alignment: .leading, spacing: 12) {

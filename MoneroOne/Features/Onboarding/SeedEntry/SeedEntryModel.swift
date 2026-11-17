@@ -336,7 +336,7 @@ final class SeedEntryModel {
             return SeedEntryStatus(text: String(localized: "Valid seed phrase"), tone: .success, detail: detail)
         case .passphrase:
             return SeedEntryStatus(
-                text: String(localized: "This Polyseed uses a passphrase. Monero One does not support Polyseed passphrases yet."),
+                text: String(localized: "This Polyseed uses a passphrase. Monero Mobile does not support Polyseed passphrases yet."),
                 tone: .error
             )
         case .invalid:

@@ -19659,96 +19659,96 @@
         }
       }
     },
-    "Bluetooth permission denied. Go to Settings → Monero One → Bluetooth." : {
+    "Bluetooth permission denied. Go to Settings → Monero Mobile → Bluetooth." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth-Zugriff verweigert. Öffne Einstellungen → Monero One → Bluetooth."
+            "value" : "Bluetooth-Zugriff verweigert. Öffne Einstellungen → Monero Mobile → Bluetooth."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permiso de Bluetooth denegado. Ve a Configuración → Monero One → Bluetooth."
+            "value" : "Permiso de Bluetooth denegado. Ve a Configuración → Monero Mobile → Bluetooth."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Autorisation Bluetooth refusée. Accédez à Réglages → Monero One → Bluetooth."
+            "value" : "Autorisation Bluetooth refusée. Accédez à Réglages → Monero Mobile → Bluetooth."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Autorizzazione Bluetooth negata. Vai in Impostazioni → Monero One → Bluetooth."
+            "value" : "Autorizzazione Bluetooth negata. Vai in Impostazioni → Monero Mobile → Bluetooth."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetoothの使用が許可されていません。「設定」→「Monero One」→「Bluetooth」で許可してください。"
+            "value" : "Bluetoothの使用が許可されていません。「設定」→「Monero Mobile」→「Bluetooth」で許可してください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth 권한이 거부되었습니다. 설정 → Monero One → Bluetooth로 이동하세요."
+            "value" : "Bluetooth 권한이 거부되었습니다. 설정 → Monero Mobile → Bluetooth로 이동하세요."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geen toegang tot Bluetooth. Ga naar Instellingen → Monero One → Bluetooth."
+            "value" : "Geen toegang tot Bluetooth. Ga naar Instellingen → Monero Mobile → Bluetooth."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Brak zgody na Bluetooth. Otwórz Ustawienia → Monero One → Bluetooth."
+            "value" : "Brak zgody na Bluetooth. Otwórz Ustawienia → Monero Mobile → Bluetooth."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permissão de Bluetooth negada. Acesse Ajustes → Monero One → Bluetooth."
+            "value" : "Permissão de Bluetooth negada. Acesse Ajustes → Monero Mobile → Bluetooth."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permisiunea Bluetooth a fost refuzată. Accesează Configurări → Monero One → Bluetooth."
+            "value" : "Permisiunea Bluetooth a fost refuzată. Accesează Configurări → Monero Mobile → Bluetooth."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Доступ к Bluetooth запрещён. Откройте «Настройки» → Monero One → Bluetooth."
+            "value" : "Доступ к Bluetooth запрещён. Откройте «Настройки» → Monero Mobile → Bluetooth."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth izni reddedildi. Ayarlar → Monero One → Bluetooth bölümüne gidin."
+            "value" : "Bluetooth izni reddedildi. Ayarlar → Monero Mobile → Bluetooth bölümüne gidin."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Доступ до Bluetooth заборонено. Відкрийте Параметри → Monero One → Bluetooth."
+            "value" : "Доступ до Bluetooth заборонено. Відкрийте Параметри → Monero Mobile → Bluetooth."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "蓝牙权限被拒绝。请前往“设置”→“Monero One”→“蓝牙”。"
+            "value" : "蓝牙权限被拒绝。请前往“设置”→“Monero Mobile”→“蓝牙”。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "藍牙權限遭拒。請前往「設定」→「Monero One」→「藍牙」。"
+            "value" : "藍牙權限遭拒。請前往「設定」→「Monero Mobile」→「藍牙」。"
           }
         }
       }
@@ -49247,103 +49247,103 @@
         }
       }
     },
-    "I sent you %@ XMR. Tap to claim it in Monero One: %@" : {
+    "I sent you %@ XMR. Tap to claim it in Monero Mobile: %@" : {
       "comment" : "Text shared with a payment link. The first value is the amount, the second the link",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I sent you %@ XMR. Tap to claim it in Monero One: %@"
+            "value" : "I sent you %@ XMR. Tap to claim it in Monero Mobile: %@"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ich habe dir %@ XMR geschickt. Tippe, um sie in Monero One einzulösen: %@"
+            "value" : "Ich habe dir %@ XMR geschickt. Tippe, um sie in Monero Mobile einzulösen: %@"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Te envié %@ XMR. Toca para reclamarlos en Monero One: %@"
+            "value" : "Te envié %@ XMR. Toca para reclamarlos en Monero Mobile: %@"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Je t’ai envoyé %@ XMR. Touche pour les récupérer dans Monero One : %@"
+            "value" : "Je t’ai envoyé %@ XMR. Touche pour les récupérer dans Monero Mobile : %@"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ti ho inviato %@ XMR. Tocca per riscattarli in Monero One: %@"
+            "value" : "Ti ho inviato %@ XMR. Tocca per riscattarli in Monero Mobile: %@"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ik heb je %@ XMR gestuurd. Tik om ze te claimen in Monero One: %@"
+            "value" : "Ik heb je %@ XMR gestuurd. Tik om ze te claimen in Monero Mobile: %@"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enviei %@ XMR para você. Toque para resgatar no Monero One: %@"
+            "value" : "Enviei %@ XMR para você. Toque para resgatar no Monero Mobile: %@"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wysyłam ci %@ XMR. Stuknij, aby je odebrać w Monero One: %@"
+            "value" : "Wysyłam ci %@ XMR. Stuknij, aby je odebrać w Monero Mobile: %@"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ți-am trimis %@ XMR. Atinge pentru a-i revendica în Monero One: %@"
+            "value" : "Ți-am trimis %@ XMR. Atinge pentru a-i revendica în Monero Mobile: %@"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вам отправлено %@ XMR. Нажмите, чтобы забрать их в Monero One: %@"
+            "value" : "Вам отправлено %@ XMR. Нажмите, чтобы забрать их в Monero Mobile: %@"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вам надіслано %@ XMR. Торкніться, щоб забрати їх у Monero One: %@"
+            "value" : "Вам надіслано %@ XMR. Торкніться, щоб забрати їх у Monero Mobile: %@"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sana %@ XMR gönderdim. Monero One’da teslim almak için dokun: %@"
+            "value" : "Sana %@ XMR gönderdim. Monero Mobile’da teslim almak için dokun: %@"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ XMRを送りました。タップしてMonero Oneで受け取ってください：%@"
+            "value" : "%@ XMRを送りました。タップしてMonero Mobileで受け取ってください：%@"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ XMR을(를) 보냈습니다. 탭하여 Monero One에서 받으세요: %@"
+            "value" : "%@ XMR을(를) 보냈습니다. 탭하여 Monero Mobile에서 받으세요: %@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "我给你发了 %@ XMR。点按即可在 Monero One 中领取：%@"
+            "value" : "我给你发了 %@ XMR。点按即可在 Monero Mobile 中领取：%@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "我傳了 %@ XMR 給你。點一下即可在 Monero One 中領取：%@"
+            "value" : "我傳了 %@ XMR 給你。點一下即可在 Monero Mobile 中領取：%@"
           }
         }
       }
@@ -55632,104 +55632,104 @@
         }
       }
     },
-    "Monero One" : {
+    "Monero Mobile" : {
       "shouldTranslate" : false
     },
-    "Monero One cannot read the wallet keys on this iPhone, so it needs to restore them." : {
+    "Monero Mobile cannot read the wallet keys on this iPhone, so it needs to restore them." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One kann die Wallet-Schlüssel auf diesem iPhone nicht lesen und muss sie deshalb wiederherstellen."
+            "value" : "Monero Mobile kann die Wallet-Schlüssel auf diesem iPhone nicht lesen und muss sie deshalb wiederherstellen."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One no puede leer las claves de las carteras en este iPhone, así que debe restaurarlas."
+            "value" : "Monero Mobile no puede leer las claves de las carteras en este iPhone, así que debe restaurarlas."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One ne peut pas lire les clés des portefeuilles sur cet iPhone, donc il doit les restaurer."
+            "value" : "Monero Mobile ne peut pas lire les clés des portefeuilles sur cet iPhone, donc il doit les restaurer."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One non riesce a leggere le chiavi dei portafogli su questo iPhone, quindi deve ripristinarle."
+            "value" : "Monero Mobile non riesce a leggere le chiavi dei portafogli su questo iPhone, quindi deve ripristinarle."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero OneはこのiPhone上のウォレットのキーを読み取れないため、復元する必要があります。"
+            "value" : "Monero MobileはこのiPhone上のウォレットのキーを読み取れないため、復元する必要があります。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One에서 이 iPhone의 지갑 키를 읽을 수 없으므로 복원해야 합니다."
+            "value" : "Monero Mobile에서 이 iPhone의 지갑 키를 읽을 수 없으므로 복원해야 합니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One kan de sleutels van de portemonnees op deze iPhone niet lezen, dus moet ze herstellen."
+            "value" : "Monero Mobile kan de sleutels van de portemonnees op deze iPhone niet lezen, dus moet ze herstellen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One nie może odczytać kluczy portfeli na tym iPhonie, więc musi je przywrócić."
+            "value" : "Monero Mobile nie może odczytać kluczy portfeli na tym iPhonie, więc musi je przywrócić."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One não consegue ler as chaves das carteiras neste iPhone, então precisa restaurá-las."
+            "value" : "O Monero Mobile não consegue ler as chaves das carteiras neste iPhone, então precisa restaurá-las."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One nu poate citi cheile portofelelor de pe acest iPhone, așa că trebuie să le restaureze."
+            "value" : "Monero Mobile nu poate citi cheile portofelelor de pe acest iPhone, așa că trebuie să le restaureze."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One не может прочитать ключи кошельков на этом iPhone, поэтому нужно восстановить их."
+            "value" : "Monero Mobile не может прочитать ключи кошельков на этом iPhone, поэтому нужно восстановить их."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One bu iPhone'daki cüzdan anahtarlarını okuyamıyor, bu yüzden bunları geri yüklemelidir."
+            "value" : "Monero Mobile bu iPhone'daki cüzdan anahtarlarını okuyamıyor, bu yüzden bunları geri yüklemelidir."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One не може прочитати ключі гаманців на цьому iPhone, тому має відновити їх."
+            "value" : "Monero Mobile не може прочитати ключі гаманців на цьому iPhone, тому має відновити їх."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 无法读取这部 iPhone 上的钱包密钥，因此需要恢复它们。"
+            "value" : "Monero Mobile 无法读取这部 iPhone 上的钱包密钥，因此需要恢复它们。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 無法讀取這支 iPhone 上的錢包金鑰，因此需要回復它們。"
+            "value" : "Monero Mobile 無法讀取這支 iPhone 上的錢包金鑰，因此需要回復它們。"
           }
         }
       }
     },
-    "Monero One cannot reset your PIN. To use the app again, remove all %lld wallets from this iPhone. Then restore them with their recovery phrases." : {
+    "Monero Mobile cannot reset your PIN. To use the app again, remove all %lld wallets from this iPhone. Then restore them with their recovery phrases." : {
       "comment" : "Forgot PIN alert; followed by the list of wallets",
       "localizations" : {
         "de" : {
@@ -55738,13 +55738,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One kann deine PIN nicht zurücksetzen. Um die App wieder zu nutzen, entferne deine %lld Wallet von diesem iPhone. Stelle sie dann mit ihrer Seed-Phrase wieder her."
+                  "value" : "Monero Mobile kann deine PIN nicht zurücksetzen. Um die App wieder zu nutzen, entferne deine %lld Wallet von diesem iPhone. Stelle sie dann mit ihrer Seed-Phrase wieder her."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One kann deine PIN nicht zurücksetzen. Um die App wieder zu nutzen, entferne alle %lld Wallets von diesem iPhone. Stelle sie dann mit ihren Seed-Phrasen wieder her."
+                  "value" : "Monero Mobile kann deine PIN nicht zurücksetzen. Um die App wieder zu nutzen, entferne alle %lld Wallets von diesem iPhone. Stelle sie dann mit ihren Seed-Phrasen wieder her."
                 }
               }
             }
@@ -55756,13 +55756,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One cannot reset your PIN. To use the app again, remove your %lld wallet from this iPhone. Then restore it with its recovery phrase."
+                  "value" : "Monero Mobile cannot reset your PIN. To use the app again, remove your %lld wallet from this iPhone. Then restore it with its recovery phrase."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One cannot reset your PIN. To use the app again, remove all %lld wallets from this iPhone. Then restore them with their recovery phrases."
+                  "value" : "Monero Mobile cannot reset your PIN. To use the app again, remove all %lld wallets from this iPhone. Then restore them with their recovery phrases."
                 }
               }
             }
@@ -55774,19 +55774,19 @@
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One no puede restablecer tu PIN. Para volver a usar la app, elimina las %lld carteras de este iPhone. Luego restáuralas con sus frases semilla."
+                  "value" : "Monero Mobile no puede restablecer tu PIN. Para volver a usar la app, elimina las %lld carteras de este iPhone. Luego restáuralas con sus frases semilla."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One no puede restablecer tu PIN. Para volver a usar la app, elimina %lld cartera de este iPhone. Luego restáurala con su frase semilla."
+                  "value" : "Monero Mobile no puede restablecer tu PIN. Para volver a usar la app, elimina %lld cartera de este iPhone. Luego restáurala con su frase semilla."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One no puede restablecer tu PIN. Para volver a usar la app, elimina las %lld carteras de este iPhone. Luego restáuralas con sus frases semilla."
+                  "value" : "Monero Mobile no puede restablecer tu PIN. Para volver a usar la app, elimina las %lld carteras de este iPhone. Luego restáuralas con sus frases semilla."
                 }
               }
             }
@@ -55798,19 +55798,19 @@
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One ne peut pas réinitialiser votre code PIN. Pour utiliser à nouveau l’app, supprimez les %lld portefeuilles de cet iPhone. Restaurez-les ensuite avec leurs phrases de récupération."
+                  "value" : "Monero Mobile ne peut pas réinitialiser votre code PIN. Pour utiliser à nouveau l’app, supprimez les %lld portefeuilles de cet iPhone. Restaurez-les ensuite avec leurs phrases de récupération."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One ne peut pas réinitialiser votre code PIN. Pour utiliser à nouveau l’app, supprimez %lld portefeuille de cet iPhone. Restaurez-le ensuite avec sa phrase de récupération."
+                  "value" : "Monero Mobile ne peut pas réinitialiser votre code PIN. Pour utiliser à nouveau l’app, supprimez %lld portefeuille de cet iPhone. Restaurez-le ensuite avec sa phrase de récupération."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One ne peut pas réinitialiser votre code PIN. Pour utiliser à nouveau l’app, supprimez les %lld portefeuilles de cet iPhone. Restaurez-les ensuite avec leurs phrases de récupération."
+                  "value" : "Monero Mobile ne peut pas réinitialiser votre code PIN. Pour utiliser à nouveau l’app, supprimez les %lld portefeuilles de cet iPhone. Restaurez-les ensuite avec leurs phrases de récupération."
                 }
               }
             }
@@ -55822,19 +55822,19 @@
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One non può reimpostare il PIN. Per usare di nuovo l’app, rimuovi tutti i %lld portafogli da questo iPhone. Poi ripristinali con le loro frasi seed."
+                  "value" : "Monero Mobile non può reimpostare il PIN. Per usare di nuovo l’app, rimuovi tutti i %lld portafogli da questo iPhone. Poi ripristinali con le loro frasi seed."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One non può reimpostare il PIN. Per usare di nuovo l’app, rimuovi %lld portafoglio da questo iPhone. Poi ripristinalo con la sua frase seed."
+                  "value" : "Monero Mobile non può reimpostare il PIN. Per usare di nuovo l’app, rimuovi %lld portafoglio da questo iPhone. Poi ripristinalo con la sua frase seed."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One non può reimpostare il PIN. Per usare di nuovo l’app, rimuovi tutti i %lld portafogli da questo iPhone. Poi ripristinali con le loro frasi seed."
+                  "value" : "Monero Mobile non può reimpostare il PIN. Per usare di nuovo l’app, rimuovi tutti i %lld portafogli da questo iPhone. Poi ripristinali con le loro frasi seed."
                 }
               }
             }
@@ -55846,7 +55846,7 @@
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero OneはPINをリセットできません。アプリを再び使うには、このiPhoneから%lld個のウォレットをすべて削除してください。その後、シードフレーズで復元します。"
+                  "value" : "Monero MobileはPINをリセットできません。アプリを再び使うには、このiPhoneから%lld個のウォレットをすべて削除してください。その後、シードフレーズで復元します。"
                 }
               }
             }
@@ -55858,7 +55858,7 @@
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One에서는 PIN을 재설정할 수 없습니다. 앱을 다시 사용하려면 이 iPhone에서 지갑 %lld개를 모두 제거하십시오. 그런 다음 시드 문구로 복원하십시오."
+                  "value" : "Monero Mobile에서는 PIN을 재설정할 수 없습니다. 앱을 다시 사용하려면 이 iPhone에서 지갑 %lld개를 모두 제거하십시오. 그런 다음 시드 문구로 복원하십시오."
                 }
               }
             }
@@ -55870,13 +55870,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One kan je PIN niet resetten. Om de app weer te gebruiken, verwijder je %lld portemonnee van deze iPhone. Herstel hem daarna met zijn seedzin."
+                  "value" : "Monero Mobile kan je PIN niet resetten. Om de app weer te gebruiken, verwijder je %lld portemonnee van deze iPhone. Herstel hem daarna met zijn seedzin."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One kan je PIN niet resetten. Om de app weer te gebruiken, verwijder je alle %lld portemonnees van deze iPhone. Herstel ze daarna met hun seedzinnen."
+                  "value" : "Monero Mobile kan je PIN niet resetten. Om de app weer te gebruiken, verwijder je alle %lld portemonnees van deze iPhone. Herstel ze daarna met hun seedzinnen."
                 }
               }
             }
@@ -55888,25 +55888,25 @@
               "few" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a wszystkie %lld portfele. Następnie przywróć je za pomocą ich fraz seed."
+                  "value" : "Monero Mobile nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a wszystkie %lld portfele. Następnie przywróć je za pomocą ich fraz seed."
                 }
               },
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a wszystkie %lld portfeli. Następnie przywróć je za pomocą ich fraz seed."
+                  "value" : "Monero Mobile nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a wszystkie %lld portfeli. Następnie przywróć je za pomocą ich fraz seed."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a %lld portfel. Następnie przywróć go za pomocą jego frazy seed."
+                  "value" : "Monero Mobile nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a %lld portfel. Następnie przywróć go za pomocą jego frazy seed."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a wszystkie %lld portfeli. Następnie przywróć je za pomocą ich fraz seed."
+                  "value" : "Monero Mobile nie może zresetować kodu PIN. Aby znów korzystać z aplikacji, usuń z tego iPhone’a wszystkie %lld portfeli. Następnie przywróć je za pomocą ich fraz seed."
                 }
               }
             }
@@ -55918,19 +55918,19 @@
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "O Monero One não consegue redefinir seu PIN. Para usar o app de novo, remova todas as %lld carteiras deste iPhone. Depois, restaure-as com as frases-semente delas."
+                  "value" : "O Monero Mobile não consegue redefinir seu PIN. Para usar o app de novo, remova todas as %lld carteiras deste iPhone. Depois, restaure-as com as frases-semente delas."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "O Monero One não consegue redefinir seu PIN. Para usar o app de novo, remova %lld carteira deste iPhone. Depois, restaure-a com a frase-semente dela."
+                  "value" : "O Monero Mobile não consegue redefinir seu PIN. Para usar o app de novo, remova %lld carteira deste iPhone. Depois, restaure-a com a frase-semente dela."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "O Monero One não consegue redefinir seu PIN. Para usar o app de novo, remova todas as %lld carteiras deste iPhone. Depois, restaure-as com as frases-semente delas."
+                  "value" : "O Monero Mobile não consegue redefinir seu PIN. Para usar o app de novo, remova todas as %lld carteiras deste iPhone. Depois, restaure-as com as frases-semente delas."
                 }
               }
             }
@@ -55942,19 +55942,19 @@
               "few" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nu poate reseta PIN-ul. Ca să folosești din nou aplicația, elimină toate cele %lld portofele de pe acest iPhone. Apoi restaurează-le cu frazele lor seed."
+                  "value" : "Monero Mobile nu poate reseta PIN-ul. Ca să folosești din nou aplicația, elimină toate cele %lld portofele de pe acest iPhone. Apoi restaurează-le cu frazele lor seed."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nu poate reseta PIN-ul. Ca să folosești din nou aplicația, elimină %lld portofel de pe acest iPhone. Apoi restaurează-l cu fraza lui seed."
+                  "value" : "Monero Mobile nu poate reseta PIN-ul. Ca să folosești din nou aplicația, elimină %lld portofel de pe acest iPhone. Apoi restaurează-l cu fraza lui seed."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One nu poate reseta PIN-ul. Ca să folosești din nou aplicația, elimină toate cele %lld de portofele de pe acest iPhone. Apoi restaurează-le cu frazele lor seed."
+                  "value" : "Monero Mobile nu poate reseta PIN-ul. Ca să folosești din nou aplicația, elimină toate cele %lld de portofele de pe acest iPhone. Apoi restaurează-le cu frazele lor seed."
                 }
               }
             }
@@ -55966,25 +55966,25 @@
               "few" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone все %lld кошелька. Затем восстановите их по мнемоническим фразам."
+                  "value" : "Monero Mobile не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone все %lld кошелька. Затем восстановите их по мнемоническим фразам."
                 }
               },
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone все %lld кошельков. Затем восстановите их по мнемоническим фразам."
+                  "value" : "Monero Mobile не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone все %lld кошельков. Затем восстановите их по мнемоническим фразам."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone %lld кошелёк. Затем восстановите его по мнемонической фразе."
+                  "value" : "Monero Mobile не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone %lld кошелёк. Затем восстановите его по мнемонической фразе."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone все %lld кошелька. Затем восстановите их по мнемоническим фразам."
+                  "value" : "Monero Mobile не может сбросить PIN-код. Чтобы снова пользоваться приложением, удалите с этого iPhone все %lld кошелька. Затем восстановите их по мнемоническим фразам."
                 }
               }
             }
@@ -55996,13 +55996,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One PIN'inizi sıfırlayamaz. Uygulamayı yeniden kullanmak için %lld cüzdanınızı bu iPhone'dan kaldırın. Sonra kurtarma ifadesiyle geri yükleyin."
+                  "value" : "Monero Mobile PIN'inizi sıfırlayamaz. Uygulamayı yeniden kullanmak için %lld cüzdanınızı bu iPhone'dan kaldırın. Sonra kurtarma ifadesiyle geri yükleyin."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One PIN'inizi sıfırlayamaz. Uygulamayı yeniden kullanmak için %lld cüzdanın tümünü bu iPhone'dan kaldırın. Sonra kurtarma ifadeleriyle geri yükleyin."
+                  "value" : "Monero Mobile PIN'inizi sıfırlayamaz. Uygulamayı yeniden kullanmak için %lld cüzdanın tümünü bu iPhone'dan kaldırın. Sonra kurtarma ifadeleriyle geri yükleyin."
                 }
               }
             }
@@ -56014,25 +56014,25 @@
               "few" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone усі %lld гаманці. Потім відновіть їх за мнемонічними фразами."
+                  "value" : "Monero Mobile не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone усі %lld гаманці. Потім відновіть їх за мнемонічними фразами."
                 }
               },
               "many" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone усі %lld гаманців. Потім відновіть їх за мнемонічними фразами."
+                  "value" : "Monero Mobile не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone усі %lld гаманців. Потім відновіть їх за мнемонічними фразами."
                 }
               },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone %lld гаманець. Потім відновіть його за мнемонічною фразою."
+                  "value" : "Monero Mobile не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone %lld гаманець. Потім відновіть його за мнемонічною фразою."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone усі %lld гаманця. Потім відновіть їх за мнемонічними фразами."
+                  "value" : "Monero Mobile не може скинути PIN-код. Щоб знову користуватися застосунком, видаліть з цього iPhone усі %lld гаманця. Потім відновіть їх за мнемонічними фразами."
                 }
               }
             }
@@ -56044,7 +56044,7 @@
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One 无法重置你的 PIN 码。要再次使用该应用，请从这部 iPhone 移除全部 %lld 个钱包，然后用助记词恢复它们。"
+                  "value" : "Monero Mobile 无法重置你的 PIN 码。要再次使用该应用，请从这部 iPhone 移除全部 %lld 个钱包，然后用助记词恢复它们。"
                 }
               }
             }
@@ -56056,7 +56056,7 @@
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Monero One 無法重設你的 PIN 碼。要再次使用此 App，請從這支 iPhone 移除全部 %lld 個錢包，然後用助記詞回復它們。"
+                  "value" : "Monero Mobile 無法重設你的 PIN 碼。要再次使用此 App，請從這支 iPhone 移除全部 %lld 個錢包，然後用助記詞回復它們。"
                 }
               }
             }
@@ -56064,473 +56064,473 @@
         }
       }
     },
-    "Monero One has no built-in Tor. Without Orbot or another Tor app running, no node will connect." : {
+    "Monero Mobile has no built-in Tor. Without Orbot or another Tor app running, no node will connect." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One hat kein eingebautes Tor. Ohne laufendes Orbot oder eine andere Tor-App verbindet sich kein Node."
+            "value" : "Monero Mobile hat kein eingebautes Tor. Ohne laufendes Orbot oder eine andere Tor-App verbindet sich kein Node."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One no incluye Tor. Si Orbot u otra app de Tor no está en ejecución, ningún nodo se conectará."
+            "value" : "Monero Mobile no incluye Tor. Si Orbot u otra app de Tor no está en ejecución, ningún nodo se conectará."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One n’intègre pas Tor. Sans Orbot ou une autre app Tor en cours d’exécution, aucun nœud ne se connectera."
+            "value" : "Monero Mobile n’intègre pas Tor. Sans Orbot ou une autre app Tor en cours d’exécution, aucun nœud ne se connectera."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One non include Tor. Senza Orbot o un’altra app Tor in esecuzione, nessun nodo si connetterà."
+            "value" : "Monero Mobile non include Tor. Senza Orbot o un’altra app Tor in esecuzione, nessun nodo si connetterà."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero OneにはTorが内蔵されていません。OrbotまたはほかのTor Appが動作していないと、どのノードにも接続できません。"
+            "value" : "Monero MobileにはTorが内蔵されていません。OrbotまたはほかのTor Appが動作していないと、どのノードにも接続できません。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One에는 Tor가 내장되어 있지 않습니다. Orbot 또는 다른 Tor 앱이 실행 중이 아니면 어떤 노드에도 연결되지 않습니다."
+            "value" : "Monero Mobile에는 Tor가 내장되어 있지 않습니다. Orbot 또는 다른 Tor 앱이 실행 중이 아니면 어떤 노드에도 연결되지 않습니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One heeft geen ingebouwde Tor. Zonder actieve Orbot of een andere Tor-app maakt geen enkele node verbinding."
+            "value" : "Monero Mobile heeft geen ingebouwde Tor. Zonder actieve Orbot of een andere Tor-app maakt geen enkele node verbinding."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One nie ma wbudowanego Tora. Bez działającego Orbota lub innej aplikacji Tor żaden węzeł się nie połączy."
+            "value" : "Monero Mobile nie ma wbudowanego Tora. Bez działającego Orbota lub innej aplikacji Tor żaden węzeł się nie połączy."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One não tem Tor integrado. Sem o Orbot ou outro app de Tor em execução, nenhum nó vai se conectar."
+            "value" : "O Monero Mobile não tem Tor integrado. Sem o Orbot ou outro app de Tor em execução, nenhum nó vai se conectar."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One nu are Tor integrat. Fără Orbot sau altă aplicație Tor pornită, niciun nod nu se va conecta."
+            "value" : "Monero Mobile nu are Tor integrat. Fără Orbot sau altă aplicație Tor pornită, niciun nod nu se va conecta."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "В Monero One нет встроенного Tor. Без запущенного Orbot или другого приложения Tor ни один узел не подключится."
+            "value" : "В Monero Mobile нет встроенного Tor. Без запущенного Orbot или другого приложения Tor ни один узел не подключится."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One'da yerleşik Tor yoktur. Orbot veya başka bir Tor uygulaması çalışmıyorsa hiçbir düğüm bağlanmaz."
+            "value" : "Monero Mobile'da yerleşik Tor yoktur. Orbot veya başka bir Tor uygulaması çalışmıyorsa hiçbir düğüm bağlanmaz."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У Monero One немає вбудованого Tor. Без запущеного Orbot або іншої програми Tor жоден вузол не підключиться."
+            "value" : "У Monero Mobile немає вбудованого Tor. Без запущеного Orbot або іншої програми Tor жоден вузол не підключиться."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 没有内置 Tor。如果没有运行 Orbot 或其他 Tor App，任何节点都无法连接。"
+            "value" : "Monero Mobile 没有内置 Tor。如果没有运行 Orbot 或其他 Tor App，任何节点都无法连接。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 沒有內建 Tor。如果沒有執行 Orbot 或其他 Tor App，任何節點都無法連線。"
+            "value" : "Monero Mobile 沒有內建 Tor。如果沒有執行 Orbot 或其他 Tor App，任何節點都無法連線。"
           }
         }
       }
     },
-    "Monero One is a self-custody wallet. Your seed phrase is the only way to access your funds. We cannot recover it for you." : {
+    "Monero Mobile is a self-custody wallet. Your seed phrase is the only way to access your funds. We cannot recover it for you." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One ist eine Self-Custody-Wallet. Deine Seed-Phrase ist der einzige Zugang zu deinem Guthaben. Wir können sie nicht für dich wiederherstellen."
+            "value" : "Monero Mobile ist eine Self-Custody-Wallet. Deine Seed-Phrase ist der einzige Zugang zu deinem Guthaben. Wir können sie nicht für dich wiederherstellen."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One es una cartera de autocustodia. Tu frase semilla es la única forma de acceder a tus fondos. No podemos recuperarla por ti."
+            "value" : "Monero Mobile es una cartera de autocustodia. Tu frase semilla es la única forma de acceder a tus fondos. No podemos recuperarla por ti."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One est un portefeuille non dépositaire. Votre phrase de récupération est le seul moyen d’accéder à vos fonds. Nous ne pouvons pas la récupérer pour vous."
+            "value" : "Monero Mobile est un portefeuille non dépositaire. Votre phrase de récupération est le seul moyen d’accéder à vos fonds. Nous ne pouvons pas la récupérer pour vous."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One è un portafoglio in autocustodia. La frase seed è l’unico modo per accedere ai tuoi fondi. Non possiamo recuperarla per te."
+            "value" : "Monero Mobile è un portafoglio in autocustodia. La frase seed è l’unico modo per accedere ai tuoi fondi. Non possiamo recuperarla per te."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneはセルフカストディ型のウォレットです。資金にアクセスする唯一の方法はシードフレーズです。シードフレーズを代わりに復元することはできません。"
+            "value" : "Monero Mobileはセルフカストディ型のウォレットです。資金にアクセスする唯一の方法はシードフレーズです。シードフレーズを代わりに復元することはできません。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One은 자기 수탁형 지갑입니다. 시드 문구는 자금에 접근할 수 있는 유일한 방법입니다. 저희는 시드 문구를 복구해 드릴 수 없습니다."
+            "value" : "Monero Mobile은 자기 수탁형 지갑입니다. 시드 문구는 자금에 접근할 수 있는 유일한 방법입니다. 저희는 시드 문구를 복구해 드릴 수 없습니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One is een portemonnee in eigen beheer. Je seedzin is de enige toegang tot je tegoed. Wij kunnen hem niet voor je herstellen."
+            "value" : "Monero Mobile is een portemonnee in eigen beheer. Je seedzin is de enige toegang tot je tegoed. Wij kunnen hem niet voor je herstellen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One to portfel niepowierniczy. Fraza seed to jedyny sposób dostępu do środków. Nie możemy jej odzyskać."
+            "value" : "Monero Mobile to portfel niepowierniczy. Fraza seed to jedyny sposób dostępu do środków. Nie możemy jej odzyskać."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One é uma carteira de autocustódia. Sua frase-semente é a única forma de acessar seus fundos. Não podemos recuperá-la para você."
+            "value" : "O Monero Mobile é uma carteira de autocustódia. Sua frase-semente é a única forma de acessar seus fundos. Não podemos recuperá-la para você."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One este un portofel în custodie proprie. Fraza seed este singura cale de acces la fonduri. Nu o putem recupera pentru tine."
+            "value" : "Monero Mobile este un portofel în custodie proprie. Fraza seed este singura cale de acces la fonduri. Nu o putem recupera pentru tine."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One — некастодиальный кошелёк. Мнемоническая фраза — единственный способ получить доступ к средствам. Мы не можем восстановить её за вас."
+            "value" : "Monero Mobile — некастодиальный кошелёк. Мнемоническая фраза — единственный способ получить доступ к средствам. Мы не можем восстановить её за вас."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One, anahtarların yalnızca sizde olduğu bir cüzdandır (self-custody). Fonlarınıza erişmenin tek yolu kurtarma ifadenizdir. Onu sizin için kurtaramayız."
+            "value" : "Monero Mobile, anahtarların yalnızca sizde olduğu bir cüzdandır (self-custody). Fonlarınıza erişmenin tek yolu kurtarma ifadenizdir. Onu sizin için kurtaramayız."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One — некастодіальний гаманець. Мнемонічна фраза — єдиний спосіб отримати доступ до коштів. Ми не можемо відновити її за вас."
+            "value" : "Monero Mobile — некастодіальний гаманець. Мнемонічна фраза — єдиний спосіб отримати доступ до коштів. Ми не можемо відновити її за вас."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 是自托管钱包。助记词是访问你资金的唯一方式。我们无法为你找回。"
+            "value" : "Monero Mobile 是自托管钱包。助记词是访问你资金的唯一方式。我们无法为你找回。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 是自行保管的錢包。助記詞是存取你資金的唯一方式。我們無法幫你找回。"
+            "value" : "Monero Mobile 是自行保管的錢包。助記詞是存取你資金的唯一方式。我們無法幫你找回。"
           }
         }
       }
     },
-    "Monero One is open source. You can verify exactly how location is used in the code." : {
+    "Monero Mobile is open source. You can verify exactly how location is used in the code." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One ist Open Source. Du kannst im Code genau prüfen, wie der Standort verwendet wird."
+            "value" : "Monero Mobile ist Open Source. Du kannst im Code genau prüfen, wie der Standort verwendet wird."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One es de código abierto. Puedes verificar en el código exactamente cómo se usa la ubicación."
+            "value" : "Monero Mobile es de código abierto. Puedes verificar en el código exactamente cómo se usa la ubicación."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One est open source. Vous pouvez vérifier dans le code comment la position est utilisée."
+            "value" : "Monero Mobile est open source. Vous pouvez vérifier dans le code comment la position est utilisée."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One è open source. Puoi verificare nel codice come viene usata esattamente la posizione."
+            "value" : "Monero Mobile è open source. Puoi verificare nel codice come viene usata esattamente la posizione."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneはオープンソースです。位置情報がどのように使われているかをコードで正確に確認できます。"
+            "value" : "Monero Mobileはオープンソースです。位置情報がどのように使われているかをコードで正確に確認できます。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One은 오픈 소스입니다. 위치가 어떻게 사용되는지 코드에서 정확히 확인할 수 있습니다."
+            "value" : "Monero Mobile은 오픈 소스입니다. 위치가 어떻게 사용되는지 코드에서 정확히 확인할 수 있습니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One is open source. In de code kun je precies controleren hoe locatie wordt gebruikt."
+            "value" : "Monero Mobile is open source. In de code kun je precies controleren hoe locatie wordt gebruikt."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One ma otwarty kod źródłowy. W kodzie możesz sprawdzić, jak dokładnie używana jest lokalizacja."
+            "value" : "Monero Mobile ma otwarty kod źródłowy. W kodzie możesz sprawdzić, jak dokładnie używana jest lokalizacja."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One tem código aberto. Você pode verificar no código exatamente como a localização é usada."
+            "value" : "O Monero Mobile tem código aberto. Você pode verificar no código exatamente como a localização é usada."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One este open source. Poți verifica în cod exact cum este folosită localizarea."
+            "value" : "Monero Mobile este open source. Poți verifica în cod exact cum este folosită localizarea."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У Monero One открытый исходный код. Вы можете сами проверить в коде, как именно используется геопозиция."
+            "value" : "У Monero Mobile открытый исходный код. Вы можете сами проверить в коде, как именно используется геопозиция."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One açık kaynaktır. Konumun nasıl kullanıldığını kodda tam olarak doğrulayabilirsiniz."
+            "value" : "Monero Mobile açık kaynaktır. Konumun nasıl kullanıldığını kodda tam olarak doğrulayabilirsiniz."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One має відкритий код. Ви можете перевірити в коді, як саме використовується локація."
+            "value" : "Monero Mobile має відкритий код. Ви можете перевірити в коді, як саме використовується локація."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 是开源软件。你可以在代码中查证位置信息的具体使用方式。"
+            "value" : "Monero Mobile 是开源软件。你可以在代码中查证位置信息的具体使用方式。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 是開放原始碼軟體。你可以在程式碼中查證位置資訊的確切使用方式。"
+            "value" : "Monero Mobile 是開放原始碼軟體。你可以在程式碼中查證位置資訊的確切使用方式。"
           }
         }
       }
     },
-    "Monero One names come in a later update" : {
+    "Monero Mobile names come in a later update" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One-Namen kommen mit einem späteren Update"
+            "value" : "Monero Mobile-Namen kommen mit einem späteren Update"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Los nombres de Monero One llegarán en una próxima actualización"
+            "value" : "Los nombres de Monero Mobile llegarán en una próxima actualización"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Les noms Monero One arriveront dans une prochaine mise à jour"
+            "value" : "Les noms Monero Mobile arriveront dans une prochaine mise à jour"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I nomi Monero One arriveranno in un prossimo aggiornamento"
+            "value" : "I nomi Monero Mobile arriveranno in un prossimo aggiornamento"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One の名前は今後のアップデートで対応予定です"
+            "value" : "Monero Mobile の名前は今後のアップデートで対応予定です"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 이름은 이후 업데이트에서 제공됩니다"
+            "value" : "Monero Mobile 이름은 이후 업데이트에서 제공됩니다"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One-namen komen in een latere update"
+            "value" : "Monero Mobile-namen komen in een latere update"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nazwy Monero One pojawią się w późniejszej aktualizacji"
+            "value" : "Nazwy Monero Mobile pojawią się w późniejszej aktualizacji"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Os nomes Monero One chegam em uma atualização futura"
+            "value" : "Os nomes Monero Mobile chegam em uma atualização futura"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Numele Monero One vor veni într-o actualizare ulterioară"
+            "value" : "Numele Monero Mobile vor veni într-o actualizare ulterioară"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Имена Monero One появятся в одном из следующих обновлений"
+            "value" : "Имена Monero Mobile появятся в одном из следующих обновлений"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One adları sonraki bir güncellemeyle gelecek"
+            "value" : "Monero Mobile adları sonraki bir güncellemeyle gelecek"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Імена Monero One з’являться в одному з наступних оновлень"
+            "value" : "Імена Monero Mobile з’являться в одному з наступних оновлень"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 名称将在后续更新中推出"
+            "value" : "Monero Mobile 名称将在后续更新中推出"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 名稱將在後續更新中推出"
+            "value" : "Monero Mobile 名稱將在後續更新中推出"
           }
         }
       }
     },
-    "Monero One switches language the next time it opens." : {
+    "Monero Mobile switches language the next time it opens." : {
       "comment" : "Language settings: a new language shows after the app restarts",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One wechselt die Sprache, wenn du die App das nächste Mal öffnest."
+            "value" : "Monero Mobile wechselt die Sprache, wenn du die App das nächste Mal öffnest."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One cambiará de idioma la próxima vez que lo abras."
+            "value" : "Monero Mobile cambiará de idioma la próxima vez que lo abras."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One changera de langue à sa prochaine ouverture."
+            "value" : "Monero Mobile changera de langue à sa prochaine ouverture."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One cambierà lingua alla prossima apertura."
+            "value" : "Monero Mobile cambierà lingua alla prossima apertura."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One は次回起動時に言語を切り替えます。"
+            "value" : "Monero Mobile は次回起動時に言語を切り替えます。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One은 다음에 열 때 언어를 전환합니다."
+            "value" : "Monero Mobile은 다음에 열 때 언어를 전환합니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One wisselt van taal als je de app de volgende keer opent."
+            "value" : "Monero Mobile wisselt van taal als je de app de volgende keer opent."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One zmieni język przy następnym uruchomieniu."
+            "value" : "Monero Mobile zmieni język przy następnym uruchomieniu."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One mudará de idioma na próxima vez que for aberto."
+            "value" : "O Monero Mobile mudará de idioma na próxima vez que for aberto."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One își schimbă limba la următoarea deschidere."
+            "value" : "Monero Mobile își schimbă limba la următoarea deschidere."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One сменит язык при следующем запуске."
+            "value" : "Monero Mobile сменит язык при следующем запуске."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One bir sonraki açılışta dili değiştirir."
+            "value" : "Monero Mobile bir sonraki açılışta dili değiştirir."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One змінить мову під час наступного запуску."
+            "value" : "Monero Mobile змінить мову під час наступного запуску."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 将在下次打开时切换语言。"
+            "value" : "Monero Mobile 将在下次打开时切换语言。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 將在下次開啟時切換語言。"
+            "value" : "Monero Mobile 將在下次開啟時切換語言。"
           }
         }
       }
@@ -75456,96 +75456,96 @@
         }
       }
     },
-    "Rate Monero One" : {
+    "Rate Monero Mobile" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One bewerten"
+            "value" : "Monero Mobile bewerten"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valorar Monero One"
+            "value" : "Valorar Monero Mobile"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Noter Monero One"
+            "value" : "Noter Monero Mobile"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valuta Monero One"
+            "value" : "Valuta Monero Mobile"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneを評価"
+            "value" : "Monero Mobileを評価"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 평가하기"
+            "value" : "Monero Mobile 평가하기"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beoordeel Monero One"
+            "value" : "Beoordeel Monero Mobile"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oceń Monero One"
+            "value" : "Oceń Monero Mobile"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avaliar Monero One"
+            "value" : "Avaliar Monero Mobile"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Evaluează Monero One"
+            "value" : "Evaluează Monero Mobile"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оценить Monero One"
+            "value" : "Оценить Monero Mobile"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One'ı Puanla"
+            "value" : "Monero Mobile'ı Puanla"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оцінити Monero One"
+            "value" : "Оцінити Monero Mobile"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "为 Monero One 评分"
+            "value" : "为 Monero Mobile 评分"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "為 Monero One 評分"
+            "value" : "為 Monero Mobile 評分"
           }
         }
       }
@@ -99279,96 +99279,96 @@
         }
       }
     },
-    "This Polyseed uses a passphrase. Monero One does not support Polyseed passphrases yet." : {
+    "This Polyseed uses a passphrase. Monero Mobile does not support Polyseed passphrases yet." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dieses Polyseed verwendet eine Passphrase. Monero One unterstützt Polyseed-Passphrasen noch nicht."
+            "value" : "Dieses Polyseed verwendet eine Passphrase. Monero Mobile unterstützt Polyseed-Passphrasen noch nicht."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Esta Polyseed usa una frase de contraseña. Monero One aún no admite frases de contraseña de Polyseed."
+            "value" : "Esta Polyseed usa una frase de contraseña. Monero Mobile aún no admite frases de contraseña de Polyseed."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ce Polyseed utilise une phrase secrète. Monero One ne prend pas encore en charge les phrases secrètes Polyseed."
+            "value" : "Ce Polyseed utilise une phrase secrète. Monero Mobile ne prend pas encore en charge les phrases secrètes Polyseed."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Questo Polyseed usa una passphrase. Monero One non supporta ancora le passphrase di Polyseed."
+            "value" : "Questo Polyseed usa una passphrase. Monero Mobile non supporta ancora le passphrase di Polyseed."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "この Polyseed はパスフレーズを使用しています。Monero One は Polyseed のパスフレーズにまだ対応していません。"
+            "value" : "この Polyseed はパスフレーズを使用しています。Monero Mobile は Polyseed のパスフレーズにまだ対応していません。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "이 Polyseed는 암호 문구를 사용합니다. Monero One은 아직 Polyseed 암호 문구를 지원하지 않습니다."
+            "value" : "이 Polyseed는 암호 문구를 사용합니다. Monero Mobile은 아직 Polyseed 암호 문구를 지원하지 않습니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deze Polyseed gebruikt een wachtzin. Monero One ondersteunt Polyseed-wachtzinnen nog niet."
+            "value" : "Deze Polyseed gebruikt een wachtzin. Monero Mobile ondersteunt Polyseed-wachtzinnen nog niet."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ten Polyseed używa frazy hasłowej. Monero One nie obsługuje jeszcze fraz hasłowych Polyseed."
+            "value" : "Ten Polyseed używa frazy hasłowej. Monero Mobile nie obsługuje jeszcze fraz hasłowych Polyseed."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este Polyseed usa uma frase secreta. O Monero One ainda não oferece suporte a frases secretas do Polyseed."
+            "value" : "Este Polyseed usa uma frase secreta. O Monero Mobile ainda não oferece suporte a frases secretas do Polyseed."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Acest Polyseed folosește o frază-parolă. Monero One nu acceptă încă frazele-parolă Polyseed."
+            "value" : "Acest Polyseed folosește o frază-parolă. Monero Mobile nu acceptă încă frazele-parolă Polyseed."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Этот Polyseed использует парольную фразу. Monero One пока не поддерживает парольные фразы Polyseed."
+            "value" : "Этот Polyseed использует парольную фразу. Monero Mobile пока не поддерживает парольные фразы Polyseed."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bu Polyseed bir parola ifadesi kullanıyor. Monero One henüz Polyseed parola ifadelerini desteklemiyor."
+            "value" : "Bu Polyseed bir parola ifadesi kullanıyor. Monero Mobile henüz Polyseed parola ifadelerini desteklemiyor."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Цей Polyseed використовує парольну фразу. Monero One поки не підтримує парольні фрази Polyseed."
+            "value" : "Цей Polyseed використовує парольну фразу. Monero Mobile поки не підтримує парольні фрази Polyseed."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此 Polyseed 使用了密码短语。Monero One 暂不支持 Polyseed 密码短语。"
+            "value" : "此 Polyseed 使用了密码短语。Monero Mobile 暂不支持 Polyseed 密码短语。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此 Polyseed 使用了密碼短語。Monero One 暫不支援 Polyseed 密碼短語。"
+            "value" : "此 Polyseed 使用了密碼短語。Monero Mobile 暫不支援 Polyseed 密碼短語。"
           }
         }
       }
@@ -99562,190 +99562,190 @@
         }
       }
     },
-    "This iPhone was set up from a device backup. Wallet keys stay on the old iPhone, so Monero One needs to restore them here." : {
+    "This iPhone was set up from a device backup. Wallet keys stay on the old iPhone, so Monero Mobile needs to restore them here." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dieses iPhone wurde aus einem Geräte-Backup eingerichtet. Die Wallet-Schlüssel bleiben auf dem alten iPhone, deshalb muss Monero One sie hier wiederherstellen."
+            "value" : "Dieses iPhone wurde aus einem Geräte-Backup eingerichtet. Die Wallet-Schlüssel bleiben auf dem alten iPhone, deshalb muss Monero Mobile sie hier wiederherstellen."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este iPhone se configuró a partir de una copia de seguridad del dispositivo. Las claves de las carteras se quedan en el iPhone anterior, así que Monero One debe restaurarlas aquí."
+            "value" : "Este iPhone se configuró a partir de una copia de seguridad del dispositivo. Las claves de las carteras se quedan en el iPhone anterior, así que Monero Mobile debe restaurarlas aquí."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cet iPhone a été configuré à partir d’une sauvegarde de l’appareil. Les clés des portefeuilles restent sur l’ancien iPhone, donc Monero One doit les restaurer ici."
+            "value" : "Cet iPhone a été configuré à partir d’une sauvegarde de l’appareil. Les clés des portefeuilles restent sur l’ancien iPhone, donc Monero Mobile doit les restaurer ici."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Questo iPhone è stato configurato da un backup del dispositivo. Le chiavi dei portafogli restano sul vecchio iPhone, quindi Monero One deve ripristinarle qui."
+            "value" : "Questo iPhone è stato configurato da un backup del dispositivo. Le chiavi dei portafogli restano sul vecchio iPhone, quindi Monero Mobile deve ripristinarle qui."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このiPhoneはデバイスのバックアップから設定されました。ウォレットのキーは以前のiPhoneに残っているため、Monero Oneでここに復元する必要があります。"
+            "value" : "このiPhoneはデバイスのバックアップから設定されました。ウォレットのキーは以前のiPhoneに残っているため、Monero Mobileでここに復元する必要があります。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "이 iPhone은 기기 백업으로 설정되었습니다. 지갑 키는 이전 iPhone에 남아 있으므로 Monero One에서 여기에 복원해야 합니다."
+            "value" : "이 iPhone은 기기 백업으로 설정되었습니다. 지갑 키는 이전 iPhone에 남아 있으므로 Monero Mobile에서 여기에 복원해야 합니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deze iPhone is ingesteld vanuit een apparaatreservekopie. De sleutels van de portemonnees blijven op de oude iPhone, dus Monero One moet ze hier herstellen."
+            "value" : "Deze iPhone is ingesteld vanuit een apparaatreservekopie. De sleutels van de portemonnees blijven op de oude iPhone, dus Monero Mobile moet ze hier herstellen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ten iPhone został skonfigurowany z kopii zapasowej urządzenia. Klucze portfeli zostały na starym iPhonie, więc Monero One musi je tutaj przywrócić."
+            "value" : "Ten iPhone został skonfigurowany z kopii zapasowej urządzenia. Klucze portfeli zostały na starym iPhonie, więc Monero Mobile musi je tutaj przywrócić."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este iPhone foi configurado a partir de um backup do dispositivo. As chaves das carteiras ficam no iPhone antigo, então o Monero One precisa restaurá-las aqui."
+            "value" : "Este iPhone foi configurado a partir de um backup do dispositivo. As chaves das carteiras ficam no iPhone antigo, então o Monero Mobile precisa restaurá-las aqui."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Acest iPhone a fost configurat dintr-un backup al dispozitivului. Cheile portofelelor au rămas pe iPhone-ul vechi, așa că Monero One trebuie să le restaureze aici."
+            "value" : "Acest iPhone a fost configurat dintr-un backup al dispozitivului. Cheile portofelelor au rămas pe iPhone-ul vechi, așa că Monero Mobile trebuie să le restaureze aici."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Этот iPhone настроен из резервной копии устройства. Ключи кошельков остались на старом iPhone, поэтому Monero One нужно восстановить их здесь."
+            "value" : "Этот iPhone настроен из резервной копии устройства. Ключи кошельков остались на старом iPhone, поэтому Monero Mobile нужно восстановить их здесь."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bu iPhone bir aygıt yedeğinden kuruldu. Cüzdan anahtarları eski iPhone'da kaldı, bu yüzden Monero One bunları burada geri yüklemelidir."
+            "value" : "Bu iPhone bir aygıt yedeğinden kuruldu. Cüzdan anahtarları eski iPhone'da kaldı, bu yüzden Monero Mobile bunları burada geri yüklemelidir."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Цей iPhone налаштовано з резервної копії пристрою. Ключі гаманців залишилися на старому iPhone, тому Monero One має відновити їх тут."
+            "value" : "Цей iPhone налаштовано з резервної копії пристрою. Ключі гаманців залишилися на старому iPhone, тому Monero Mobile має відновити їх тут."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此 iPhone 是通过设备备份设置的。钱包密钥仍在旧 iPhone 上，所以 Monero One 需要在此恢复它们。"
+            "value" : "此 iPhone 是通过设备备份设置的。钱包密钥仍在旧 iPhone 上，所以 Monero Mobile 需要在此恢复它们。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此 iPhone 是透過裝置備份設定的。錢包金鑰仍在舊 iPhone 上，因此 Monero One 需要在此回復它們。"
+            "value" : "此 iPhone 是透過裝置備份設定的。錢包金鑰仍在舊 iPhone 上，因此 Monero Mobile 需要在此回復它們。"
           }
         }
       }
     },
-    "This is not a Monero One payment link." : {
+    "This is not a Monero Mobile payment link." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Das ist kein Zahlungslink von Monero One."
+            "value" : "Das ist kein Zahlungslink von Monero Mobile."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este no es un enlace de pago de Monero One."
+            "value" : "Este no es un enlace de pago de Monero Mobile."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ce n’est pas un lien de paiement Monero One."
+            "value" : "Ce n’est pas un lien de paiement Monero Mobile."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Questo non è un link di pagamento di Monero One."
+            "value" : "Questo non è un link di pagamento di Monero Mobile."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dit is geen betaallink van Monero One."
+            "value" : "Dit is geen betaallink van Monero Mobile."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este não é um link de pagamento do Monero One."
+            "value" : "Este não é um link de pagamento do Monero Mobile."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "To nie jest link płatności Monero One."
+            "value" : "To nie jest link płatności Monero Mobile."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Acesta nu este un link de plată Monero One."
+            "value" : "Acesta nu este un link de plată Monero Mobile."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Это не платёжная ссылка Monero One."
+            "value" : "Это не платёжная ссылка Monero Mobile."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Це не платіжне посилання Monero One."
+            "value" : "Це не платіжне посилання Monero Mobile."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bu bir Monero One ödeme bağlantısı değil."
+            "value" : "Bu bir Monero Mobile ödeme bağlantısı değil."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneの支払いリンクではありません。"
+            "value" : "Monero Mobileの支払いリンクではありません。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 결제 링크가 아닙니다."
+            "value" : "Monero Mobile 결제 링크가 아닙니다."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "这不是 Monero One 的付款链接。"
+            "value" : "这不是 Monero Mobile 的付款链接。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "這不是 Monero One 的付款連結。"
+            "value" : "這不是 Monero Mobile 的付款連結。"
           }
         }
       }
@@ -108335,96 +108335,96 @@
         }
       }
     },
-    "Update Monero One to open this link." : {
+    "Update Monero Mobile to open this link." : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aktualisiere Monero One, um diesen Link zu öffnen."
+            "value" : "Aktualisiere Monero Mobile, um diesen Link zu öffnen."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Actualiza Monero One para abrir este enlace."
+            "value" : "Actualiza Monero Mobile para abrir este enlace."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mettez à jour Monero One pour ouvrir ce lien."
+            "value" : "Mettez à jour Monero Mobile pour ouvrir ce lien."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aggiorna Monero One per aprire questo link."
+            "value" : "Aggiorna Monero Mobile per aprire questo link."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Update Monero One om deze link te openen."
+            "value" : "Update Monero Mobile om deze link te openen."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Atualize o Monero One para abrir este link."
+            "value" : "Atualize o Monero Mobile para abrir este link."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zaktualizuj Monero One, aby otworzyć ten link."
+            "value" : "Zaktualizuj Monero Mobile, aby otworzyć ten link."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Actualizează Monero One ca să deschizi acest link."
+            "value" : "Actualizează Monero Mobile ca să deschizi acest link."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Обновите Monero One, чтобы открыть эту ссылку."
+            "value" : "Обновите Monero Mobile, чтобы открыть эту ссылку."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оновіть Monero One, щоб відкрити це посилання."
+            "value" : "Оновіть Monero Mobile, щоб відкрити це посилання."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bu bağlantıyı açmak için Monero One’ı güncelleyin."
+            "value" : "Bu bağlantıyı açmak için Monero Mobile’ı güncelleyin."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このリンクを開くには、Monero Oneを更新してください。"
+            "value" : "このリンクを開くには、Monero Mobileを更新してください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "이 링크를 열려면 Monero One을 업데이트하세요."
+            "value" : "이 링크를 열려면 Monero Mobile을 업데이트하세요."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "请更新 Monero One 以打开此链接。"
+            "value" : "请更新 Monero Mobile 以打开此链接。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "請更新 Monero One 以打開此連結。"
+            "value" : "請更新 Monero Mobile 以打開此連結。"
           }
         }
       }
@@ -113807,192 +113807,192 @@
         }
       }
     },
-    "What's New in Monero One" : {
-      "comment" : "Title of the What's New sheet. Keep Monero One in Latin letters.",
+    "What's New in Monero Mobile" : {
+      "comment" : "Title of the What's New sheet. Keep Monero Mobile in Latin letters.",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Neu in Monero One"
+            "value" : "Neu in Monero Mobile"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novedades de Monero One"
+            "value" : "Novedades de Monero Mobile"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nouveautés de Monero One"
+            "value" : "Nouveautés de Monero Mobile"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novità di Monero One"
+            "value" : "Novità di Monero Mobile"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One の新機能"
+            "value" : "Monero Mobile の新機能"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One의 새로운 기능"
+            "value" : "Monero Mobile의 새로운 기능"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nieuw in Monero One"
+            "value" : "Nieuw in Monero Mobile"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nowości w Monero One"
+            "value" : "Nowości w Monero Mobile"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novidades do Monero One"
+            "value" : "Novidades do Monero Mobile"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Noutăți în Monero One"
+            "value" : "Noutăți în Monero Mobile"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Что нового в Monero One"
+            "value" : "Что нового в Monero Mobile"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One'daki yenilikler"
+            "value" : "Monero Mobile'daki yenilikler"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Що нового в Monero One"
+            "value" : "Що нового в Monero Mobile"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 新功能"
+            "value" : "Monero Mobile 新功能"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 新功能"
+            "value" : "Monero Mobile 新功能"
           }
         }
       }
     },
-    "What's New in Monero One %@" : {
-      "comment" : "Banner on the wallet home. %@ is the version, such as 1.1. Keep Monero One in Latin letters.",
+    "What's New in Monero Mobile %@" : {
+      "comment" : "Banner on the wallet home. %@ is the version, such as 1.1. Keep Monero Mobile in Latin letters.",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Neu in Monero One %@"
+            "value" : "Neu in Monero Mobile %@"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novedades de Monero One %@"
+            "value" : "Novedades de Monero Mobile %@"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nouveautés de Monero One %@"
+            "value" : "Nouveautés de Monero Mobile %@"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novità di Monero One %@"
+            "value" : "Novità di Monero Mobile %@"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One %@ の新機能"
+            "value" : "Monero Mobile %@ の新機能"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One %@의 새로운 기능"
+            "value" : "Monero Mobile %@의 새로운 기능"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nieuw in Monero One %@"
+            "value" : "Nieuw in Monero Mobile %@"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nowości w Monero One %@"
+            "value" : "Nowości w Monero Mobile %@"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novidades do Monero One %@"
+            "value" : "Novidades do Monero Mobile %@"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Noutăți în Monero One %@"
+            "value" : "Noutăți în Monero Mobile %@"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Что нового в Monero One %@"
+            "value" : "Что нового в Monero Mobile %@"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One %@ sürümündeki yenilikler"
+            "value" : "Monero Mobile %@ sürümündeki yenilikler"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Що нового в Monero One %@"
+            "value" : "Що нового в Monero Mobile %@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One %@ 新功能"
+            "value" : "Monero Mobile %@ 新功能"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One %@ 新功能"
+            "value" : "Monero Mobile %@ 新功能"
           }
         }
       }
@@ -114373,97 +114373,97 @@
         }
       }
     },
-    "Whoever opens it claims the funds in Monero One. In Send, choose Link." : {
+    "Whoever opens it claims the funds in Monero Mobile. In Send, choose Link." : {
       "comment" : "What's New highlight text. Send is the Send button and Link is the Link control in Send; use their translations.",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wer ihn öffnet, erhält das Geld in Monero One. Wähle in „Senden“ die Option „Link“."
+            "value" : "Wer ihn öffnet, erhält das Geld in Monero Mobile. Wähle in „Senden“ die Option „Link“."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quien lo abra recibe los fondos en Monero One. En Enviar, elige Enlace."
+            "value" : "Quien lo abra recibe los fondos en Monero Mobile. En Enviar, elige Enlace."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La personne qui l’ouvre récupère les fonds dans Monero One. Dans Envoyer, choisissez Lien."
+            "value" : "La personne qui l’ouvre récupère les fonds dans Monero Mobile. Dans Envoyer, choisissez Lien."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chi lo apre riceve i fondi in Monero One. In Invia, scegli Link."
+            "value" : "Chi lo apre riceve i fondi in Monero Mobile. In Invia, scegli Link."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "リンクを開いた人が Monero One で資金を受け取れます。「送金」で「リンク」を選択してください。"
+            "value" : "リンクを開いた人が Monero Mobile で資金を受け取れます。「送金」で「リンク」を選択してください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "링크를 연 사람이 Monero One에서 자금을 받습니다. 보내기에서 링크를 선택하세요."
+            "value" : "링크를 연 사람이 Monero Mobile에서 자금을 받습니다. 보내기에서 링크를 선택하세요."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wie hem opent, ontvangt het geld in Monero One. Kies in Verzend voor Link."
+            "value" : "Wie hem opent, ontvangt het geld in Monero Mobile. Kies in Verzend voor Link."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kto go otworzy, odbierze środki w Monero One. W Wyślij wybierz Link."
+            "value" : "Kto go otworzy, odbierze środki w Monero Mobile. W Wyślij wybierz Link."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quem abrir recebe os fundos no Monero One. Em Enviar, escolha Link."
+            "value" : "Quem abrir recebe os fundos no Monero Mobile. Em Enviar, escolha Link."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cine îl deschide primește fondurile în Monero One. În Trimite, alege Link."
+            "value" : "Cine îl deschide primește fondurile în Monero Mobile. În Trimite, alege Link."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Тот, кто её откроет, получит средства в Monero One. В разделе «Отправить» выберите «Ссылка»."
+            "value" : "Тот, кто её откроет, получит средства в Monero Mobile. В разделе «Отправить» выберите «Ссылка»."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bağlantıyı açan kişi fonları Monero One'da alır. Gönder'de Bağlantı'yı seçin."
+            "value" : "Bağlantıyı açan kişi fonları Monero Mobile'da alır. Gönder'de Bağlantı'yı seçin."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Той, хто його відкриє, отримає кошти в Monero One. У розділі «Надіслати» виберіть «Посилання»."
+            "value" : "Той, хто його відкриє, отримає кошти в Monero Mobile. У розділі «Надіслати» виберіть «Посилання»."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打开链接的人可在 Monero One 中领取资金。在“发送”中选择“链接”。"
+            "value" : "打开链接的人可在 Monero Mobile 中领取资金。在“发送”中选择“链接”。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "開啟連結的人可在 Monero One 中領取資金。在「傳送」中選擇「連結」。"
+            "value" : "開啟連結的人可在 Monero Mobile 中領取資金。在「傳送」中選擇「連結」。"
           }
         }
       }

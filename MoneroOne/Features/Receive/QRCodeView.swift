@@ -323,7 +323,7 @@ fileprivate struct QRFocusPresentation: Identifiable {
 
 /// A screen whose QR code grows in place into focus mode, as Cake Wallet's
 /// does: the code grows from where it sits to the width of the screen, the
-/// Monero One lockup slides in above it, the rest of the screen steps back
+/// Monero Mobile lockup slides in above it, the rest of the screen steps back
 /// behind the page color, and the screen goes to full brightness. A tap
 /// anywhere, a swipe down or VoiceOver's escape shrinks it back along the
 /// same path. The screen's views read `QRFocus` to step back;
@@ -413,7 +413,7 @@ struct FocusableQRPlate: View {
     }
 }
 
-/// Focus mode itself: the Monero One lockup, the code as large as the
+/// Focus mode itself: the Monero Mobile lockup, the code as large as the
 /// screen allows (16 pt margins, 448 pt at most) and the requested amount,
 /// over the page color. The code starts on top of the one on the screen
 /// and grows from there. Like Cake's, it shows no address: the code is the
@@ -536,7 +536,7 @@ struct QRFocusView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: Self.lockupHeight, height: Self.lockupHeight)
-            Text(verbatim: "Monero One")
+            Text(verbatim: "Monero Mobile")
                 .font(.headline.bold())
         }
         .frame(height: Self.lockupHeight)

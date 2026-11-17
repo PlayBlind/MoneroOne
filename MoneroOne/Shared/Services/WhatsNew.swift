@@ -72,7 +72,7 @@ enum WhatsNewNotes {
                     systemImage: "link",
                     scene: .link,
                     title: "Send XMR as a link",
-                    detail: "Whoever opens it claims the funds in Monero One. In Send, choose Link."
+                    detail: "Whoever opens it claims the funds in Monero Mobile. In Send, choose Link."
                 ),
                 .init(
                     systemImage: "arrow.left.arrow.right",

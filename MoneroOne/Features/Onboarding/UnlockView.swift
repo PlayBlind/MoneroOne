@@ -27,10 +27,10 @@ struct UnlockView: View {
             AnimatedMoneroLogo(size: isSquat ? 88 : 120)
                 .accessibilityHidden(true)
 
-            Text("Monero One")
+            Text("Monero Mobile")
                 .font(.title)
                 .fontWeight(.bold)
-                .accessibilityLabel("Monero One")
+                .accessibilityLabel("Monero Mobile")
                 .accessibilityAddTraits(.isHeader)
 
             // PIN Entry with dots
@@ -165,7 +165,7 @@ struct UnlockView: View {
     /// phrases they need.
     private var forgotPINMessage: String {
         let wallets = walletManager.wallets
-        let body = String(localized: "Monero One cannot reset your PIN. To use the app again, remove all \(wallets.count) wallets from this iPhone. Then restore them with their recovery phrases.", comment: "Forgot PIN alert; followed by the list of wallets")
+        let body = String(localized: "Monero Mobile cannot reset your PIN. To use the app again, remove all \(wallets.count) wallets from this iPhone. Then restore them with their recovery phrases.", comment: "Forgot PIN alert; followed by the list of wallets")
         let list = wallets.map { "\($0.emoji) \($0.name)" }.joined(separator: "\n")
         return body + "\n\n" + list
     }

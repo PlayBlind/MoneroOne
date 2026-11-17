@@ -25,6 +25,10 @@ try {
   page.on('console', message => { if (message.type() === 'error') errors.push(message.text().slice(0, 300)); });
   await page.goto(`chrome-extension://${id}/index.html`);
   await page.getByRole('heading', { name: 'Your money. Only yours.' }).waitFor();
+  assert.equal(await page.locator('.sidebar-footer').innerText(), 'Monero Mobile\nv0.2.5');
+  const initialCopy = (await page.locator('body').innerText()).toLowerCase();
+  assert.ok(!initialCopy.includes('experimental') && !initialCopy.includes('alpha'), 'The wallet UI must not show experimental/alpha labels');
+  assert.ok(initialCopy.includes('store your recovery phrase offline'), 'General backup precautions must remain visible');
   const ownTabs = await worker.evaluate(() => chrome.tabs.query({ url: chrome.runtime.getURL('index.html') }));
   assert.equal(ownTabs.length, 1);
   await page.setViewportSize({ width: 390, height: 844 });
@@ -37,8 +41,10 @@ try {
   console.log('PASS: launcher can find its existing wallet tab and narrow-screen actions fit');
   await page.getByRole('button', { name: 'Create wallet', exact: true }).click();
   await page.getByLabel('Wallet name', { exact: true }).fill('Extension test');
-  await page.locator('[name=network]').selectOption('stagenet');
+  assert.equal(await page.locator('#wallet-form button[type=submit]').isDisabled(), true);
   await page.locator('[name=connection]').selectOption('offline');
+  assert.equal(await page.locator('#wallet-form button[type=submit]').isDisabled(), false);
+  await page.locator('[name=network]').selectOption('stagenet');
   await page.getByLabel('Local password', { exact: true }).fill(password);
   await page.getByLabel('Confirm password', { exact: true }).fill(password);
   await page.locator('input[name=risk]').check();

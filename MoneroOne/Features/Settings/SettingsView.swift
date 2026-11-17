@@ -519,7 +519,7 @@ struct SettingsView: View {
             Link(destination: URL(string: "https://apps.apple.com/app/id6757898541?action=write-review")!) {
                 SettingsRow(
                     icon: "star.fill",
-                    title: "Rate Monero One",
+                    title: "Rate Monero Mobile",
                     color: .brand
                 )
             }
@@ -586,7 +586,7 @@ struct SettingsRow: View {
 enum SupportMail {
     static let address = "support@monero.one"
     /// English in every language, so support can filter on it.
-    static let subject = "Monero One iOS - Feedback"
+    static let subject = "Monero Mobile iOS - Feedback"
 
     enum Route: Equatable {
         /// Apple Mail has an account: the system composer.
@@ -608,7 +608,7 @@ enum SupportMail {
     ) -> String {
         [
             "", "", "----------",
-            "Monero One \(version) (\(build))",
+            "Monero Mobile \(version) (\(build))",
             "\(systemName) \(systemVersion)",
             model
         ].joined(separator: "\n")

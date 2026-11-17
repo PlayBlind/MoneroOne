@@ -8,97 +8,97 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One nutzt Bluetooth, um mit deiner Trezor-Hardware-Wallet zu kommunizieren und Transaktionen sicher zu signieren."
+            "value" : "Monero Mobile nutzt Bluetooth, um mit deiner Trezor-Hardware-Wallet zu kommunizieren und Transaktionen sicher zu signieren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "MoneroOne uses Bluetooth to communicate with your Trezor hardware wallet for secure transaction signing."
+            "value" : "Monero Mobile uses Bluetooth to communicate with your Trezor hardware wallet for secure transaction signing."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One usa Bluetooth para comunicarse con tu cartera de hardware Trezor y firmar transacciones de forma segura."
+            "value" : "Monero Mobile usa Bluetooth para comunicarse con tu cartera de hardware Trezor y firmar transacciones de forma segura."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One utilise Bluetooth pour communiquer avec votre portefeuille matériel Trezor afin de signer les transactions en toute sécurité."
+            "value" : "Monero Mobile utilise Bluetooth pour communiquer avec votre portefeuille matériel Trezor afin de signer les transactions en toute sécurité."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One usa il Bluetooth per comunicare con il tuo portafoglio hardware Trezor e firmare le transazioni in modo sicuro."
+            "value" : "Monero Mobile usa il Bluetooth per comunicare con il tuo portafoglio hardware Trezor e firmare le transazioni in modo sicuro."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneは、トランザクションに安全に署名するため、BluetoothでTrezorハードウェアウォレットと通信します。"
+            "value" : "Monero Mobileは、トランザクションに安全に署名するため、BluetoothでTrezorハードウェアウォレットと通信します。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One은 Trezor 하드웨어 지갑과 통신하여 거래에 안전하게 서명하기 위해 Bluetooth를 사용합니다."
+            "value" : "Monero Mobile은 Trezor 하드웨어 지갑과 통신하여 거래에 안전하게 서명하기 위해 Bluetooth를 사용합니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One gebruikt Bluetooth om met je Trezor-hardwareportemonnee te communiceren, zodat je transacties veilig kunt ondertekenen."
+            "value" : "Monero Mobile gebruikt Bluetooth om met je Trezor-hardwareportemonnee te communiceren, zodat je transacties veilig kunt ondertekenen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One używa Bluetooth do komunikacji z portfelem sprzętowym Trezor, aby bezpiecznie podpisywać transakcje."
+            "value" : "Monero Mobile używa Bluetooth do komunikacji z portfelem sprzętowym Trezor, aby bezpiecznie podpisywać transakcje."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One usa o Bluetooth para se comunicar com sua carteira de hardware Trezor e assinar transações com segurança."
+            "value" : "O Monero Mobile usa o Bluetooth para se comunicar com sua carteira de hardware Trezor e assinar transações com segurança."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One folosește Bluetooth pentru a comunica cu portofelul hardware Trezor și pentru a semna tranzacțiile în siguranță."
+            "value" : "Monero Mobile folosește Bluetooth pentru a comunica cu portofelul hardware Trezor și pentru a semna tranzacțiile în siguranță."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One использует Bluetooth для связи с аппаратным кошельком Trezor, чтобы безопасно подписывать транзакции."
+            "value" : "Monero Mobile использует Bluetooth для связи с аппаратным кошельком Trezor, чтобы безопасно подписывать транзакции."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One, işlemleri güvenli bir şekilde imzalamak için Trezor donanım cüzdanınızla Bluetooth üzerinden iletişim kurar."
+            "value" : "Monero Mobile, işlemleri güvenli bir şekilde imzalamak için Trezor donanım cüzdanınızla Bluetooth üzerinden iletişim kurar."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One використовує Bluetooth для зв’язку з апаратним гаманцем Trezor, щоб безпечно підписувати транзакції."
+            "value" : "Monero Mobile використовує Bluetooth для зв’язку з апаратним гаманцем Trezor, щоб безпечно підписувати транзакції."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 使用蓝牙与你的 Trezor 硬件钱包通信，以安全地签署交易。"
+            "value" : "Monero Mobile 使用蓝牙与你的 Trezor 硬件钱包通信，以安全地签署交易。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 使用藍牙與你的 Trezor 硬體錢包通訊，以安全地簽署交易。"
+            "value" : "Monero Mobile 使用藍牙與你的 Trezor 硬體錢包通訊，以安全地簽署交易。"
           }
         }
       }
@@ -128,13 +128,13 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One utilise l’appareil photo pour scanner les codes QR."
+            "value" : "Monero Mobile utilise l’appareil photo pour scanner les codes QR."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One usa la fotocamera per scansionare i codici QR."
+            "value" : "Monero Mobile usa la fotocamera per scansionare i codici QR."
           }
         },
         "ja" : {
@@ -152,7 +152,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One gebruikt de camera om QR-codes te scannen."
+            "value" : "Monero Mobile gebruikt de camera om QR-codes te scannen."
           }
         },
         "pl" : {
@@ -188,19 +188,19 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One використовує камеру для сканування QR-кодів."
+            "value" : "Monero Mobile використовує камеру для сканування QR-кодів."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 需要使用相机来扫描二维码。"
+            "value" : "Monero Mobile 需要使用相机来扫描二维码。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 需要使用相機來掃描 QR Code。"
+            "value" : "Monero Mobile 需要使用相機來掃描 QR Code。"
           }
         }
       }
@@ -230,13 +230,13 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One utilise Face ID pour déverrouiller votre portefeuille."
+            "value" : "Monero Mobile utilise Face ID pour déverrouiller votre portefeuille."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One usa Face ID per sbloccare il tuo portafoglio."
+            "value" : "Monero Mobile usa Face ID per sbloccare il tuo portafoglio."
           }
         },
         "ja" : {
@@ -254,7 +254,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One gebruikt Face ID om je portemonnee te ontgrendelen."
+            "value" : "Monero Mobile gebruikt Face ID om je portemonnee te ontgrendelen."
           }
         },
         "pl" : {
@@ -296,13 +296,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 使用面容 ID 来解锁你的钱包。"
+            "value" : "Monero Mobile 使用面容 ID 来解锁你的钱包。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One 使用 Face ID 來解鎖你的錢包。"
+            "value" : "Monero Mobile 使用 Face ID 來解鎖你的錢包。"
           }
         }
       }
@@ -518,97 +518,97 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One sichert deinen Empfangs-QR-Code nur in deiner Fotomediathek, wenn du darum bittest."
+            "value" : "Monero Mobile sichert deinen Empfangs-QR-Code nur in deiner Fotomediathek, wenn du darum bittest."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Monero One saves your receive QR code to your photo library only when you ask it to."
+            "value" : "Monero Mobile saves your receive QR code to your photo library only when you ask it to."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One guarda tu código QR de recepción en tu fototeca solo cuando se lo pides."
+            "value" : "Monero Mobile guarda tu código QR de recepción en tu fototeca solo cuando se lo pides."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One enregistre votre code QR de réception dans votre photothèque uniquement lorsque vous le demandez."
+            "value" : "Monero Mobile enregistre votre code QR de réception dans votre photothèque uniquement lorsque vous le demandez."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One salva il codice QR di ricezione nella libreria Foto solo quando lo chiedi tu."
+            "value" : "Monero Mobile salva il codice QR di ricezione nella libreria Foto solo quando lo chiedi tu."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero Oneは、ご指示があった場合にのみ、受け取り用QRコードをフォトライブラリに保存します。"
+            "value" : "Monero Mobileは、ご指示があった場合にのみ、受け取り用QRコードをフォトライブラリに保存します。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One은 사용자가 요청할 때만 받기 QR 코드를 사진 보관함에 저장합니다."
+            "value" : "Monero Mobile은 사용자가 요청할 때만 받기 QR 코드를 사진 보관함에 저장합니다."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One bewaart de QR-code van je ontvangstadres alleen in je fotobibliotheek als je daarom vraagt."
+            "value" : "Monero Mobile bewaart de QR-code van je ontvangstadres alleen in je fotobibliotheek als je daarom vraagt."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One zachowuje kod QR do odbierania w bibliotece zdjęć tylko wtedy, gdy o to poprosisz."
+            "value" : "Monero Mobile zachowuje kod QR do odbierania w bibliotece zdjęć tylko wtedy, gdy o to poprosisz."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Monero One salva o código QR de recebimento na sua fototeca somente quando você pede."
+            "value" : "O Monero Mobile salva o código QR de recebimento na sua fototeca somente quando você pede."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One salvează codul QR de primire în Poze doar atunci când îi ceri."
+            "value" : "Monero Mobile salvează codul QR de primire în Poze doar atunci când îi ceri."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One сохраняет QR-код для получения в медиатеку, только когда вы об этом просите."
+            "value" : "Monero Mobile сохраняет QR-код для получения в медиатеку, только когда вы об этом просите."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One, ödeme alma QR kodunuzu yalnızca siz istediğinizde fotoğraf arşivinize kaydeder."
+            "value" : "Monero Mobile, ödeme alma QR kodunuzu yalnızca siz istediğinizde fotoğraf arşivinize kaydeder."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monero One зберігає QR-код для отримання у вашу медіатеку, лише коли ви про це просите."
+            "value" : "Monero Mobile зберігає QR-код для отримання у вашу медіатеку, лише коли ви про це просите."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "只有在你要求时，Monero One 才会将你的收款二维码存储到照片图库。"
+            "value" : "只有在你要求时，Monero Mobile 才会将你的收款二维码存储到照片图库。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "只有在你要求時，Monero One 才會將你的收款 QR Code 儲存到照片圖庫。"
+            "value" : "只有在你要求時，Monero Mobile 才會將你的收款 QR Code 儲存到照片圖庫。"
           }
         }
       }

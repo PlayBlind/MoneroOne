@@ -1,10 +1,12 @@
-# Monero One
+# Monero Mobile
+
+<img src="extension/public/monero-mobile-logo.svg" width="128" height="128" alt="Monero Mobile pixel-art M coin logo">
 
 ## Standalone Chrome extension (experimental)
 
-This fork adds a standalone Manifest V3 browser wallet in [`extension/`](extension/README.md), with local WebAssembly wallet operations, encrypted storage, send/receive screens, subaddresses and an address book. No phone or desktop companion app is required. **Unaudited alpha: use stagenet first.** The native iOS app below is preserved.
+This fork adds a standalone Manifest V3 Chrome wallet in [`extension/`](extension/README.md), with local WebAssembly wallet operations, encrypted storage, send/receive screens, subaddresses and an address book. No desktop companion app is required. **Unaudited alpha: use stagenet first.** The existing native iOS source is preserved.
 
-A native iOS wallet for Monero, built with SwiftUI.
+A native iOS wallet, now branded Monero Mobile, built with SwiftUI.
 
 [![CI](https://github.com/bwgh0/MoneroOne/actions/workflows/ci.yml/badge.svg)](https://github.com/bwgh0/MoneroOne/actions/workflows/ci.yml)
 
